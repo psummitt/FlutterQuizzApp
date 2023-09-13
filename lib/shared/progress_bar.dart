@@ -70,7 +70,7 @@ class QuizBadge extends StatelessWidget {
 
     if (report != null) {
       List completed = report.topics[topic.id];
-      if (completed != null && completed.contains(quizId)) {
+      if (completed.contains(quizId)) {
         return Icon(FontAwesomeIcons.checkDouble, color: Colors.green);
       } else {
         return Icon(FontAwesomeIcons.solidCircle, color: Colors.grey);
@@ -100,11 +100,11 @@ class TopicProgress extends StatelessWidget {
   }
 
   Widget _progressCount(Report report, Topic topic) {
-    if (report != null && topic != null) {
+    if (topic != null) {
       return Padding(
         padding: const EdgeInsets.only(left: 8),
         child: Text(
-          '${report.topics[topic.id]?.length ?? 0} / ${topic?.quizzes?.length ?? 0}',
+          '${report.topics[topic.id]?.length ?? 0} / ${topic.quizzes.length ?? 0}',
           style: TextStyle(fontSize: 10, color: Colors.grey),
         ),
       );
