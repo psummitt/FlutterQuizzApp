@@ -38,9 +38,8 @@ class ProfileScreen extends StatelessWidget {
               ),
             Text(user.email ?? '', style: Theme.of(context).textTheme.headline),
             Spacer(),
-            if (report != null)
-              Text('${report.total ?? 0}',
-                  style: Theme.of(context).textTheme.display3),
+            Text('${report.total ?? 0}',
+                style: Theme.of(context).textTheme.display3),
             Text('Quizzes Completed',
                 style: Theme.of(context).textTheme.subhead),
             Spacer(),
