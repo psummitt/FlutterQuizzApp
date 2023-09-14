@@ -523,5 +523,180 @@
                 "correct": false
             }
         ]
+    },
+    {
+        "title": "Cymbal Direct needs to make sure its new social media integration service can’t be accessed directly from the public internet. You want to allow access only through the web frontend store. How can you prevent access to the social media integration service from the outside world, but still allow access to the APIs of social media services?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "If VMs do not need to be accessed by the outside world, they should not have external IP addresses, and denying all outbound traffic would prevent connecting to external social media APIs.",
+        "options": [
+            {
+                "title": "Remove external IP addresses from the VM instances running the social media service and place them in a private VPC behind Cloud NAT. Any SSH connection for management should be restricted to corporate network IP addresses by Google Cloud Armor.",
+                "correct": false
+            },
+            {
+                "title": "Limit access to the external IP addresses of the VM instances using a firewall rule to block all outbound traffic. Any SSH connection for management should be done with Identity-Aware Proxy (IAP) or a bastion host (jump box) after allowing SSH access from IAP or a corporate network.",
+                "correct": false
+            },
+            {
+                "title": "Limit access to the external IP addresses of the VM instances using firewall rules and place them in a private VPC behind Cloud NAT. Any SSH connection for management should be done with Identity-Aware Proxy (IAP) or a bastion host (jump box) after allowing SSH access from IAP or a corporate network.",
+                "correct": false
+            },
+            {
+                "title": "Remove external IP addresses from the VM instances running the social media service and place them in a private VPC behind Cloud NAT. Any SSH connection for management should be done with Identity-Aware Proxy (IAP) or a bastion host (jump box) after allowing SSH access from IAP or a corporate network.",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "Michael is the owner/operator of “Zneeks,” a retail shoe store that caters to sneaker aficionados. He regularly works with customers who order small batches of custom shoes. Michael is interested in using Cymbal Direct to manufacture and ship custom batches of shoes to these customers. Reasonably tech-savvy but not a developer, Michael likes using Cymbal Direct's partner purchase portal but wants the process to be easy. What is an example of a user story that could describe Michael’s persona?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "'As a [type of user], I want to [do something] so that I can [get some benefit]' is the standard format for a user story.",
+        "options": [
+            {
+                "title": "Michael is reasonably tech-savvy but needs Cymbal Direct's partner purchase portal to be easy",
+                "correct": false
+            },
+            {
+                "title": "Zneeks is a retail shoe store that caters to sneaker aficionados.",
+                "correct": false
+            },
+            {
+                "title": "Michael is a tech-savvy owner/operator of a small business.",
+                "correct": false
+            },
+            {
+                "title": "As a shoe retailer, Michael wants to send Cymbal Direct custom purchase orders so that batches of custom shoes are sent to his customers.",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "Your client created an Identity and Access Management (IAM) resource hierarchy with Google Cloud when the company was a startup. Your client has grown and now has multiple departments and teams. You want to recommend a resource hierarchy that follows Google-recommended practices. What should you do?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "Because the environment has evolved, update the IAM resource hierarchy to reflect the changes. Use projects to group resources that share the same trust boundary.",
+        "options": [
+            {
+                "title": "Use multiple projects with established trust boundaries, and change the resource hierarchy to reflect company organization.",
+                "correct": true
+            },
+            {
+                "title": "Use a flat resource hierarchy and multiple projects with established trust boundaries.",
+                "correct": false
+            },
+            {
+                "title": "Keep all resources in one project, but change the resource hierarchy to reflect company organization.",
+                "correct": false
+            },
+            {
+                "title": "Keep all resources in one project, and use a flat resource hierarchy to reduce complexity and simplify management.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Your client is legally required to comply with the Payment Card Industry Data Security Standard (PCI-DSS). The client has formal audits already, but the audits are only done periodically. The client needs to monitor for common violations to meet those requirements more easily. The client does not want to replace audits but wants to engage in continuous compliance and catch violations early. What would you recommend that this client do? Responses:",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "The reports relating to compliance vulnerabilities are on the Compliance tab. To use the Security Health Analytics that scan for common compliance vulnerabilities, you must use the Premium tier.",
+        "options": [
+            {
+                "title": "Enable the Security Command Center (SCC) dashboard, asset discovery, and Security Health Analytics in the Standard tier. Export or view the PCI-DSS Report from the SCC dashboard's Vulnerabilities tab.",
+                "correct": false
+            },
+            {
+                "title": "Enable the Security Command Center (SCC) dashboard, asset discovery, and Security Health Analytics in the Premium tier. Export or view the PCI-DSS Report from the SCC dashboard's Vulnerabilities tab.",
+                "correct": false
+            },
+            {
+                "title": "Enable the Security Command Center (SCC) dashboard, asset discovery, and Security Health Analytics in the Standard tier. Export or view the PCI-DSS Report from the SCC dashboard's Compliance tab.",
+                "correct": false
+            },
+            {
+                "title": "Enable the Security Command Center (SCC) dashboard, asset discovery, and Security Health Analytics in the Premium tier. Export or view the PCI-DSS Report from the SCC dashboard's Compliance tab.",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "You have several Compute Engine instances running NGINX and Tomcat for a web application. In your web server logs, many login failures come from a single IP address, which looks like a brute force attack. How can you block this traffic?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "A default rule action of 'deny' would block all access. The additional rule is redundant",
+        "options": [
+            {
+                "title": "Ensure that an HTTP(S) load balancer is configured to send traffic to your backend Compute Engine instances running your web server. Create a Google Cloud Armor policy using the instance’s local firewall with a default rule action of 'Allow.' Add a new local firewall rule that specifies the IP address causing the login failures as the Condition, with an action of 'Deny' and a deny status of '403,' and accept the default priority (1000).",
+                "correct": false
+            },
+            {
+                "title": "Ensure that an HTTP(S) load balancer is configured to send traffic to the backend Compute Engine instances running your web server. Create a Google Cloud Armor policy with a default rule action of 'Allow.' Add a new rule that specifies the IP address causing the login failures as the Condition, with an action of 'Deny' and a deny status of '403,' and accept the default priority (1000). Add the load balancer backend service's HTTP-backend as the target.",
+                "correct": false
+            },
+            {
+                "title": "Ensure that an HTTP(S) load balancer is configured to send traffic to the backend Compute Engine instances running your web server. Create a Google Cloud Armor policy with a default rule action of 'Deny.' Add a new rule that specifies the IP address causing the login failures as the Condition, with an action of 'Deny' and a deny status of '403,' and accept the default priority (1000). Add the load balancer backend service's HTTP-backend as the target.",
+                "correct": false
+            },
+            {
+                "title": "Edit the Compute Engine instances running your web application, and enable Google Cloud Armor. Create a Google Cloud Armor policy with a default rule action of 'Allow.' Add a new rule that specifies the IP address causing the login failures as the Condition, with an action of 'Deny' and a deny status of '403,' and accept the default priority (1000).",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "Cymbal Direct’s social media app must run in a separate project from its APIs and web store. You want to use Identity and Access Management (IAM) to ensure a secure environment. How should you set up IAM?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "Using separate service accounts for each component allows you to grant only the access needed to each service account with either a predefined or custom role.",
+        "options": [
+            {
+                "title": "Use one service account for each component (social media app, APIs, and web store) with predefined or custom roles to grant access.",
+                "correct": false
+            },
+            {
+                "title": "Use separate service accounts for each component (social media app, APIs, and web store) with predefined or custom roles to grant access.",
+                "correct": true
+            },
+            {
+                "title": "Use one service account for each component (social media app, APIs, and web store) with basic roles to grant access.",
+                "correct": false
+            },
+            {
+                "title": "Use separate service accounts for each component (social media app, APIs, and web store) with basic roles to grant access.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Cymbal Direct’s social media app must run in a separate project from its APIs and web store. You want to use Identity and Access Management (IAM) to ensure a secure environment. How should you set up IAM?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "Using separate service accounts for each component allows you to grant only the access needed to each service account with either a predefined or custom role.",
+        "options": [
+            {
+                "title": "Use one service account for each component (social media app, APIs, and web store) with predefined or custom roles to grant access.",
+                "correct": false
+            },
+            {
+                "title": "Use separate service accounts for each component (social media app, APIs, and web store) with predefined or custom roles to grant access.",
+                "correct": true
+            },
+            {
+                "title": "Use one service account for each component (social media app, APIs, and web store) with basic roles to grant access.",
+                "correct": false
+            },
+            {
+                "title": "Use separate service accounts for each component (social media app, APIs, and web store) with basic roles to grant access.",
+                "correct": false
+            }
+        ]
     }
 ]
