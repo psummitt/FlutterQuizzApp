@@ -698,5 +698,233 @@
                 "correct": false
             }
         ]
+    },
+    {
+        "title": "Cymbal Direct is experiencing success using Google Cloud and you want to leverage tools to make your solutions more efficient. Erik, one of the original web developers, currently adds new products to your application manually. Erik has many responsibilities and requires a long lead time to add new products. You need to create an App Engine application to let Cymbal Direct employees add new products instead of waiting for Erik. However, you want to make sure that only authorized employees can use the application. What should you do?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "You could use individual accounts to give out access instead of a group, and by doing so you make access more manageable. Identity-Aware Proxy is a great tool for exactly this kind of issue.",
+        "options": [
+            {
+                "title": "Create a Google group and add authorized employees to it. Configure Identity-Aware Proxy (IAP) to the App Engine application as a HTTP-resource. Add the group as a principle with the role 'IAP-secured Web App User.'",
+                "correct": true
+            },
+            {
+                "title": "Create a Google group and add authorized employees to it. Configure Identity-Aware Proxy (IAP) to the App Engine application as a HTTP-resource. Add the group as a principle with the role 'Project Owner.'",
+                "correct": false
+            },
+            {
+                "title": "Use Google Cloud Armor to restrict access to the corporate network's external IP address. Configure firewall rules to allow only HTTP(S) access.",
+                "correct": false
+            },
+            {
+                "title": "Set up Cloud VPN between the corporate network and the Google Cloud project's VPC network. Allow users to connect to the App Engine instance.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Cymbal Direct has an application running on a Compute Engine instance. You need to give the application access to several Google Cloud services. You do not want to keep any credentials on the VM instance itself. What should you do?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "This gives the flexibility and granularity needed to allow access to multiple services, without giving access to unnecessary services.",
+        "options": [
+            {
+                "title": "Create a service account with one or more predefined or custom roles, which give access to the required services.",
+                "correct": true
+            },
+            {
+                "title": "Create a service account for the instance. Use Access scopes to enable access to the required services.",
+                "correct": false
+            },
+            {
+                "title": "Create a service account and assign it the project owner role, which enables access to any needed service.",
+                "correct": false
+            },
+            {
+                "title": "Create a service account for each of the services the VM needs to access. Associate the service accounts with the Compute Engine instance.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Cymbal Direct wants to use Identity and Access Management (IAM) to allow employees to have access to Google Cloud resources and services based on their job roles. Several employees are project managers and want to have some level of access to see what has been deployed. The security team wants to ensure that securing the environment and managing resources is simple so that it will scale. What approach should you use?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "This follows recommended practices regarding organizational policies.",
+        "options": [
+            {
+                "title": "Grant access by assigning predefined roles to groups. Use multiple groups for better control. Make sure you give out access to all the children in a hierarchy under the level needed, because child resources will not automatically inherit abilities.",
+                "correct": false
+            },
+            {
+                "title": "Give access directly to each individual for more granular control. Give access as low in the hierarchy as possible to prevent the inheritance of too many abilities from a higher level.",
+                "correct": false
+            },
+            {
+                "title": "Grant access by assigning predefined roles to groups. Use multiple groups for better control. Give access as low in the hierarchy as possible to prevent the inheritance of too many abilities from a higher level.",
+                "correct": true
+            },
+            {
+                "title": "Grant access by assigning custom roles to groups. Use multiple groups for better control. Give access as low in the hierarchy as possible to prevent the inheritance of too many abilities from a higher level.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "You've recently created an internal App Engine application for developers in your organization. The application lets developers clone production Cloud SQL databases into a project specifically created to test code and deployments. Your previous process was to export a database to a Cloud Storage bucket, and then import the SQL dump into a legacy on-premises testing environment database with connectivity to Google Cloud via Cloud VPN. Management wants to incentivize using the new process with Cloud SQL for rapid testing and track how frequently rapid testing occurs. How can you ensure that the developers use the new process?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "In this scenario, using a predefined role is inappropriate because the most appropriate predefined role, Cloud SQL Viewer, contains the cloudsql.instances.export capability, which would allow the database to be exported.",
+        "options": [
+            {
+                "title": "Create a custom role to restrict access to what developers are allowed to do. Create a group for the developers, and associate the group with your custom role. Ensure that the custom role does not have 'cloudsql.instances.export.'",
+                "correct": true
+            },
+            {
+                "title": "Use predefined roles to restrict access to what the developers are allowed to do. Create a group for the developers, and associate the group with the Cloud SQL Viewer role. Remove the 'cloudsql.instances.export' ability from the role.",
+                "correct": false
+            },
+            {
+                "title": "Leave the ACLs on the Cloud Storage bucket as-is. Disable Cloud VPN, and have developers use Identity-Aware Proxy (IAP) to connect. Create an organization policy to enforce public access protection.",
+                "correct": false
+            },
+            {
+                "title": "Use an ACL on the Cloud Storage bucket. Create a read-only group that only has viewer privileges, and ensure that the developers are in that group.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "If you have a business requirement to minimize costs, what are two things you could do?",
+        "imagePath": "",
+        "optionType": "multiChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Migrate to Kubernetes from VMs",
+                "correct": false
+            },
+            {
+                "title": "Do not run instances when they are not being used",
+                "correct": true
+            },
+            {
+                "title": "Use a managed service",
+                "correct": false
+            },
+            {
+                "title": "Cap costs by creating a budget in Google Cloud",
+                "correct": false
+            }
+            {
+                "title": "Follow Google’s rightsizing recommendations",
+                "correct": true
+            }        ]
+    },
+    {
+        "title": "You have an application implemented on Compute Engine. You want to increase the durability of your application. What should you do?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "Durability ensures that your data is protected and available. Snapshots are a viable way of backing up your data in Compute Engine.",
+        "options": [
+            {
+                "title": "Implement a regional managed instance group.",
+                "correct": false
+            },
+            {
+                "title": "Monitor your application’s usage metrics and implement autoscaling.",
+                "correct": false
+            },
+            {
+                "title": "Implement a scheduled snapshot on your Compute Engine instances.",
+                "correct": true
+            },
+            {
+                "title": "Perform health checks on your Compute Engine instances.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Developers on your team frequently write new versions of the code for one of your applications. You want to automate the build process when updates are pushed to Cloud Source Repositories. What should you do?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "Cloud Build triggers automate the build process when new files are placed into the name and branch of the repository that you specify.",
+        "options": [
+            {
+                "title": "Implement a build trigger that references your repository and branch.",
+                "correct": true
+            },
+            {
+                "title": "Set proper permissions for Cloud Build to access deployment resources.",
+                "correct": false
+            },
+            {
+                "title": "Implement a Cloud Build configuration file with build steps.",
+                "correct": false
+            },
+            {
+                "title": "Upload application updates and Cloud Build configuration files to Cloud Source Repositories.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "The number of requests received by your application is nearing the maximum specified in your design. You want to limit the number of incoming requests until the system can handle the workload. What design pattern does this situation describe?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "A circuit breaker limits requests based on a threshold that you specify.",
+        "options": [
+            {
+                "title": "Applying exponential backoff",
+                "correct": false
+            },
+            {
+                "title": "Increasing jitter",
+                "correct": false
+            },
+            {
+                "title": "Applying a circuit breaker",
+                "correct": true
+            },
+            {
+                "title": "Applying graceful degradation",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "The number of requests received by your application is nearing the maximum specified in your design. You want to limit the number of incoming requests until the system can handle the workload. What design pattern does this situation describe?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "A circuit breaker limits requests based on a threshold that you specify.",
+        "options": [
+            {
+                "title": "Applying exponential backoff",
+                "correct": false
+            },
+            {
+                "title": "Increasing jitter",
+                "correct": false
+            },
+            {
+                "title": "Applying a circuit breaker",
+                "correct": true
+            },
+            {
+                "title": "Applying graceful degradation",
+                "correct": false
+            }
+        ]
     }
 ]
