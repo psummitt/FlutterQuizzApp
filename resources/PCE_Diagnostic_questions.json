@@ -926,5 +926,180 @@
                 "correct": false
             }
         ]
+    },
+    {
+        "title": "You are asked to implement a lift and shift operation for Cymbal Direct’s Social Media Highlighting service. You compose a Terraform configuration file to build all the necessary Google Cloud resources. What is the next step in the Terraform workflow for this effort?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "Running init in the directory containing your Terraform configuration file ensures that the correct plugins are loaded for the providers and resources requested.",
+        "options": [
+            {
+                "title": "Run terraform plan to verify the contents of the Terraform configuration file.",
+                "correct": false
+            },
+            {
+                "title": "Run terraform apply to deploy the resources described in the configuration file.",
+                "correct": false
+            },
+            {
+                "title": "Commit the configuration file to your software repository.",
+                "correct": false
+            },
+            {
+                "title": "Run terraform init to download the necessary provider modules.",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "Cymbal Direct wants to improve its drone pilot interface. You want to collect feedback on proposed changes from the community of pilots before rolling out updates systemwide. What type of deployment pattern should you implement?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "A/B testing is a pattern that lets you evaluate new proposed functionality.",
+        "options": [
+            {
+                "title": "You should implement A/B testing.",
+                "correct": true
+            },
+            {
+                "title": "You should implement a blue/green deployment.",
+                "correct": false
+            },
+            {
+                "title": "You should implement canary testing.",
+                "correct": false
+            },
+            {
+                "title": "You should implement an in-place release.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "You have implemented a manual CI/CD process for the container services required for the next implementation of the Cymbal Direct’s Drone Delivery project. You want to automate the process. What should you do?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "Configuring a build trigger automates the CI/CD process based on when the software is posted to a repository.",
+        "options": [
+            {
+                "title": "Implement a build trigger that applies your build configuration when a new software update is committed to Cloud Source Repositories.",
+                "correct": true
+            },
+            {
+                "title": "Specify the name of your Container Registry in your Cloud Build configuration.",
+                "correct": false
+            },
+            {
+                "title": "Implement and reference a source repository in your Cloud Build configuration file.",
+                "correct": false
+            },
+            {
+                "title": "Configure and push a manifest file into an environment repository in Cloud Source Repositories.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "You want to establish procedures for testing the resilience of the delivery-by-drone solution. How would you simulate a scalability issue?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "Designing for increased customer demand is one way to ensure scalability.",
+        "options": [
+            {
+                "title": "Inject a bad health check for one or more of your resources.",
+                "correct": false
+            },
+            {
+                "title": "Load test your application to see how it responds.",
+                "correct": true
+            },
+            {
+                "title": "Block access to storage assets in one of your zones.",
+                "correct": false
+            },
+            {
+                "title": "Block access to all resources in a zone.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Your development team used Cloud Source Repositories, Cloud Build, and Artifact Registry to successfully implement the build portion of an application's CI/CD process.. However, the deployment process is erroring out. Initial troubleshooting shows that the runtime environment does not have access to the build images. You need to advise the team on how to resolve the issue. What could cause this problem?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "Permissions must be configured to give the runtime service account permissions to the Artifact Registry in another project.",
+        "options": [
+            {
+                "title": "The runtime environment does not have permissions to Cloud Source Repositories in your current project.",
+                "correct": false
+            },
+            {
+                "title": "The Artifact Registry might be in a different project.",
+                "correct": true
+            },
+            {
+                "title": "The runtime environment does not have permissions to the Artifact Registry in your current project.",
+                "correct": false
+            },
+            {
+                "title": "You need to specify the Artifact Registry image by name.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "You are implementing a disaster recovery plan for the cloud version of your drone solution. Sending videos to the pilots is crucial from an operational perspective. What design pattern should you choose for this part of your architecture?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "Safety and compliance require your application to have a low RTO, so you need a hot design pattern with minimal downtime.",
+        "options": [
+            {
+                "title": "Warm with a high recovery time objective (RTO)",
+                "correct": false
+            },
+            {
+                "title": "Cold with a low recovery time objective (RTO)",
+                "correct": false
+            },
+            {
+                "title": "Hot with a low recovery time objective (RTO)",
+                "correct": true
+            },
+            {
+                "title": "Hot with a high recovery time objective (RTO)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "The pilot subsystem in your Delivery by Drone service is critical to your service. You want to ensure that connections to the pilots can survive a VM outage without affecting connectivity. What should you do?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "Managed instance groups offer scaling and autohealing that automatically replaces the instances that are not responding.",
+        "options": [
+            {
+                "title": "Deploy a load balancer to distribute traffic across multiple machines.",
+                "correct": false
+            },
+            {
+                "title": "Create persistent disk snapshots.",
+                "correct": false
+            },
+            {
+                "title": "Configure proper startup scripts for your VMs.",
+                "correct": false
+            },
+            {
+                "title": "Implement a managed instance group and load balancer.",
+                "correct": true
+            }
+        ]
     }
 ]
