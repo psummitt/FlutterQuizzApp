@@ -1101,5 +1101,80 @@
                 "correct": true
             }
         ]
+    },
+    {
+        "title": "Cymbal Direct needs a database for their next project. They want to meet their business and technical objectives. What should they do?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "Cymbal Direct has specified that they want to move to managed services wherever possible.",
+        "options": [
+            {
+                "title": "Install CockroachDB on a managed instance group",
+                "correct": false
+            },
+            {
+                "title": "Use a Managed Database Service",
+                "correct": true
+            },
+            {
+                "title": "Install MySQL on a Compute engine instance",
+                "correct": false
+            },
+            {
+                "title": "Use a NoSQL database",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Cymbal Direct has decided to use Cloud Build. Which technical requirement justifies this decision?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "Developers can build their container based workloads using Cloud Build.",
+        "options": [
+            {
+                "title": "Allow for streaming of IoT data from drones",
+                "correct": false
+            },
+            {
+                "title": "Let partners order directly via API",
+                "correct": false
+            },
+            {
+                "title": "Securely allow partner integration",
+                "correct": false
+            },
+            {
+                "title": "Ensure that developers can deploy container based workloads",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "Cymbal Direct has decided to use Cloud Build. Which technical requirement justifies this decision?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "Developers can build their container based workloads using Cloud Build.",
+        "options": [
+            {
+                "title": "Allow for streaming of IoT data from drones",
+                "correct": false
+            },
+            {
+                "title": "Let partners order directly via API",
+                "correct": false
+            },
+            {
+                "title": "Securely allow partner integration",
+                "correct": false
+            },
+            {
+                "title": "Ensure that developers can deploy container based workloads",
+                "correct": true
+            }
+        ]
     }
 ]
