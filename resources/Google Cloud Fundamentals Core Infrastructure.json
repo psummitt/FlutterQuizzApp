@@ -1,0 +1,198 @@
+[
+    {
+        "title": "Consider a single hierarchy of Google Cloud resources. Which of these situations is possible? (Choose 3 responses.)",
+        "imagePath": "",
+        "optionType": "multiChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "The reason for this question is because such and such",
+        "options": [
+            {
+                "title": "There is no organization node, but there is at least one folder.",
+                "correct": false
+            },
+            {
+                "title": "There is no organization node, and there are no folders.",
+                "correct": true
+            },
+            {
+                "title": "There are two or more organization nodes.",
+                "correct": false
+            },
+            {
+                "title": "There is an organization node, and there is at least one folder.",
+                "correct": true
+            },
+            {
+                "title": "There is an organization node, and there are no folders.",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "What is the difference between Identity and Access Management (IAM) basic roles and IAM predefined roles?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "The reason for this question is because such and such",
+        "options": [
+            {
+                "title": "Basic roles only apply to the owner of the Google Cloud project. Predefined roles can be associated with any user.",
+                "correct": false
+            },
+            {
+                "title": "Basic roles can only be granted to single users. Predefined roles can be associated with a group.",
+                "correct": false
+            },
+            {
+                "title": "Basic roles only allow viewing, creating, and deleting resources. Predefined roles allow any modification.",
+                "correct": false
+            },
+            {
+                "title": "Basic roles affect all resources in a Google Cloud project. Predefined roles apply to a specific service in a project.",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "Select the option that displays IAM roles from general to specific.",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "The reason for this question is because such and such",
+        "options": [
+            {
+                "title": "Custom roles, predefined roles, basic roles",
+                "correct": false
+            },
+            {
+                "title": "Basic roles, predefined roles, custom roles",
+                "correct": true
+            },
+            {
+                "title": "Predefined roles, custom roles, basic roles",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Which statement best describes how Google Cloud resources are associated within the resource hierarchy?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "All Google Cloud resources are associated with a project.",
+        "options": [
+            {
+                "title": "All Google Cloud resources are associated with a project.",
+                "correct": true
+            },
+            {
+                "title": "Google Cloud resources are not associated with the resource hierarchy.",
+                "correct": false
+            },
+            {
+                "title": "All Google Cloud resources are associated with a folder.",
+                "correct": false
+            },
+            {
+                "title": "All Google Cloud resources are associated with an organization.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "How does the resource hierarchy control how IAM policies are inherited?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "IAM policies that are implemented by lower-level policies can override the policies defined at a higher level.",
+                "correct": true
+            },
+            {
+                "title": "GIAM policies that are implemented higher in the resource hierarchy deny access that is granted by lower-level policies.",
+                "correct": false
+            },
+            {
+                "title": "IAM policies are only implemented at the project level; they cannot be amended by lower levels of the resource hierarchy.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Which way of accessing Google Cloud lets you control services through the code you write?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "APIs",
+                "correct": true
+            },
+            {
+                "title": "The Cloud SDK and Cloud Shell",
+                "correct": false
+            },
+            {
+                "title": "The Cloud Console mobile app",
+                "correct": false
+            },
+            {
+                "title": "The Cloud Console",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "When would you choose to have an organization node? (Select two)",
+        "imagePath": "",
+        "optionType": "multiChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "When you want to organize resources into projects",
+                "correct": false
+            },
+            {
+                "title": "When you want to create folders",
+                "correct": true
+            },
+            {
+                "title": "When you want to centrally apply organization-wide policies",
+                "correct": true
+            },
+            {
+                "title": "There’s no choice; organization nodes are mandatory.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Your company has two Google Cloud projects and you want them to share policies. What is the least error-prone way to set this up?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Define the new shared policy in the organization node.",
+                "correct": false
+            },
+            {
+                "title": "Place both projects into a folder, and define the policies on that folder.",
+                "correct": true
+            },
+            {
+                "title": "Duplicate all the policies from one project onto the other.",
+                "correct": false
+            },
+            {
+                "title": "Create shared resource policies on the common resources that are used in both projects.",
+                "correct": false
+            }
+        ]
+    }
+]
