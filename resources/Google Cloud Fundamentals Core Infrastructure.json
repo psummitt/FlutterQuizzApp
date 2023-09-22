@@ -194,5 +194,155 @@
                 "correct": false
             }
         ]
+    },
+    {
+        "title": "Which statement describes the correct Cloud Storage use case?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Cloud Storage provides durable and highly available object storage.",
+                "correct": true
+            },
+            {
+                "title": "Cloud Storage provides the root file system of a Linux virtual machine.",
+                "correct": false
+            },
+            {
+                "title": "Cloud Storage provides data warehousing services.",
+                "correct": false
+            },
+            {
+                "title": "Cloud Storage provides RDBMS (Relational Database Management System) services.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "How are Firestore and Bigtable alike? (Select two answers.)",
+        "imagePath": "",
+        "optionType": "multiChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "They both offer SQL-like queries.",
+                "correct": false
+            },
+            {
+                "title": "They are both highly scalable.",
+                "correct": true
+            },
+            {
+                "title": "They both have a free daily quota.",
+                "correct": false
+            },
+            {
+                "title": "They are both NoSQL databases.",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "Which SQL database service can scale to petabyte database sizes?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Firestore",
+                "correct": false
+            },
+            {
+                "title": "Cloud Spanner",
+                "correct": false
+            },
+            {
+                "title": "Cloud SQL",
+                "correct": false
+            },
+            {
+                "title": "Bigtable",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "Your application needs to store data with strong transactional consistency, and you want seamless scaling up. Which storage option is the best choice for your application?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Cloud SQL",
+                "correct": false
+            },
+            {
+                "title": "Cloud Spanner",
+                "correct": true
+            },
+            {
+                "title": "Firestore",
+                "correct": false
+            },
+            {
+                "title": "Bigtable",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "You manufacture devices with sensors and need to stream huge amounts of data from these devices to a storage option in the cloud. Which storage option is the best choice for your application?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Cloud SQL",
+                "correct": false
+            },
+            {
+                "title": "Cloud Spanner",
+                "correct": false
+            },
+            {
+                "title": "Firestore",
+                "correct": false
+            },
+            {
+                "title": "Bigtable",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "Why would a customer consider the Coldline Storage class?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "To save money on storing frequently accessed data",
+                "correct": false
+            },
+            {
+                "title": "To save money on storing infrequently accessed data",
+                "correct": true
+            },
+            {
+                "title": "To improve security",
+                "correct": false
+            },
+            {
+                "title": "To use the Coldline Storage API",
+                "correct": false
+            }
+        ]
     }
 ]
