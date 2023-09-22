@@ -498,5 +498,176 @@
                 "correct": false
             }
         ]
+    },
+    {
+        "title": "Select two reasons for using containers to deploy applications. (Choose 2 responses.)",
+        "imagePath": "",
+        "optionType": "multiChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Allocating resources in which to run containers is not necessary.",
+                "correct": false
+            },
+            {
+                "title": "It creates consistency across development, testing, and production environments.",
+                "correct": true
+            },
+            {
+                "title": "Migrating workloads is simpler.",
+                "correct": true
+            },
+            {
+                "title": "It provides tight coupling between applications and operating systems.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "What is a Kubernetes pod?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "A group of nodes",
+                "correct": false
+            },
+            {
+                "title": "A group of clusters",
+                "correct": false
+            },
+            {
+                "title": "A group of VMs",
+                "correct": false
+            },
+            {
+                "title": "A group of containers",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "How do containers access an operating system?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Containers use a shared base operating system stored in a shared kernel layer.",
+                "correct": true
+            },
+            {
+                "title": "Each container has its own instance of an operating system.",
+                "correct": false
+            },
+            {
+                "title": "Containers use a shared base operating system stored in a shared runtime layer.",
+                "correct": false
+            },
+            {
+                "title": "Containers use a shared base operating system stored in a Cloud Storage bucket.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Where do the resources used to build Google Kubernetes Engine clusters come from?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Compute Engine",
+                "correct": true
+            },
+            {
+                "title": "Bare metal servers",
+                "correct": false
+            },
+            {
+                "title": "App Engine",
+                "correct": false
+            },
+            {
+                "title": "Cloud Storage",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "What is a Kubernetes cluster?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "A group of containers that provide high availability for applications.",
+                "correct": false
+            },
+            {
+                "title": "A group of pods that manage the administration of a Kubernetes application.",
+                "correct": false
+            },
+            {
+                "title": "A group of machines where Kubernetes can schedule workloads.",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "How do you keep your Kubernetes version updated in Google Kubernetes Engine?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "You are required to set up a cron job to periodically check the Kubernetes version in your cluster.",
+                "correct": false
+            },
+            {
+                "title": "The Google Kubernetes Engine team periodically performs automatic upgrades of your cluster to newer stable versions.",
+                "correct": true
+            },
+            {
+                "title": "You cannot update a running cluster. You need to create a copy of the cluster with the updated Kubernetes version.",
+                "correct": false
+            },
+            {
+                "title": "You need to stop your cluster and manually update the Kubernetes version in your cluster.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Anthos provides a rich set of tools for monitoring and maintaining the consistency of your applications across which of the following locations?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Applications hosted with multiple cloud providers only.",
+                "correct": false
+            },
+            {
+                "title": "Applications hosted with one cloud provider only.",
+                "correct": false
+            },
+            {
+                "title": "Applications hosted on-premises, in the cloud, or in multiple clouds.",
+                "correct": true
+            },
+            {
+                "title": "Applications hosted on-premises only.",
+                "correct": false
+            }
+        ]
     }
 ]
