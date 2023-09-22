@@ -344,5 +344,159 @@
                 "correct": false
             }
         ]
+    },
+    {
+        "title": "Which statement best describes how VPC routers and firewalls work?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "They are managed by Google in virtual machines and customers cannot modify them.",
+                "correct": false
+            },
+            {
+                "title": "They are managed by Google as a built-in feature.",
+                "correct": true
+            },
+            {
+                "title": "They are managed by Google in virtual machines and customers can tune or deactivate them.",
+                "correct": false
+            },
+            {
+                "title": "Customers provision virtual machines and run their routers and firewalls in them.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "A Google Cloud customer wants to load-balance traffic among the backend VMs that form part of a multi-tier application. Which load-balancing option should this customer choose?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "The regional internal load balancer",
+                "correct": true
+            },
+            {
+                "title": "The global TCP proxy",
+                "correct": false
+            },
+            {
+                "title": "The global HTTP(S) load balancer",
+                "correct": false
+            },
+            {
+                "title": "The regional load balancer",
+                "correct": false
+            },
+            {
+                "title": "The global SSL proxy",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Preemptible VMs can offer advantages over a standard Compute Engine VM. What is a reason customers choose preemptible VMs?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "The per-hour price of preemptible VMs incorporates a substantial discount.",
+        "options": [
+            {
+                "title": "To reduce cost",
+                "correct": true
+            },
+            {
+                "title": "To reduce cost on premium operating systems",
+                "correct": false
+            },
+            {
+                "title": "To use custom machine types",
+                "correct": false
+            },
+            {
+                "title": "To improve performance",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Which interconnect option is a service level agreement (SLA) available for?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Direct Peering",
+                "correct": false
+            },
+            {
+                "title": "Dedicated Interconnect",
+                "correct": true
+            },
+            {
+                "title": "Carrier Peering",
+                "correct": false
+            },
+            {
+                "title": "Standard Network Tier",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Which term describes a secure, individual, private cloud-computing model hosted within a public cloud?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Virtual private cloud (VPC)",
+                "correct": true
+            },
+            {
+                "title": "Content delivery network (CDN)",
+                "correct": false
+            },
+            {
+                "title": "Virtual private network (VPN)",
+                "correct": false
+            },
+            {
+                "title": "Domain name system (DNS)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Select the true statement about Google’s VPC networks and subnets.",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Networks are regional, and subnets are zonal.",
+                "correct": false
+            },
+            {
+                "title": "Networks are global, and subnets are regional.",
+                "correct": true
+            },
+            {
+                "title": "Networks are global, and subnets are zonal.",
+                "correct": false
+            },
+            {
+                "title": "Both networks and subnets are global.",
+                "correct": false
+            }
+        ]
     }
 ]
