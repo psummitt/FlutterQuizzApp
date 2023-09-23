@@ -927,5 +927,134 @@
                 "correct": false
             }
         ]
+    },
+    {
+        "title": "You want to create alerts on your Google Cloud resources, such as when health checks fail. Which is the best Google Cloud product to use?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Cloud Monitoring",
+                "correct": true
+            },
+            {
+                "title": "Cloud Functions",
+                "correct": false
+            },
+            {
+                "title": "Cloud Trace",
+                "correct": false
+            },
+            {
+                "title": "Error Reporting",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Which definition best describes a service level indicator (SLI)?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "A percentage goal of a measure you intend your service to achieve",
+                "correct": false
+            },
+            {
+                "title": "A carefully selected monitoring metric that measures one aspect of a service's reliability.",
+                "correct": true
+            },
+            {
+                "title": "A contract with your customers regarding service performance",
+                "correct": false
+            },
+            {
+                "title": "A key performance indicator; for example, clicks per session or customer signups",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Select the two correct statements about Cloud Logging.",
+        "imagePath": "",
+        "optionType": "multiChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Cloud Logging requires the use of a third-party monitoring agent.",
+                "correct": false
+            },
+            {
+                "title": "Cloud Logging lets you define metrics based on your logs.",
+                "correct": true
+            },
+            {
+                "title": "Cloud Logging lets you define uptime checks.",
+                "correct": false
+            },
+            {
+                "title": "Cloud Logging requires you to store your logs in BigQuery or Cloud Storage.",
+                "correct": false
+            },
+            {
+                "title": "Cloud Logging lets you view logs from your applications and filter and search on them.",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "Which option describes a commitment made to your customers that your systems and applications will have only a certain amount of “downtime”?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Key performance indicator",
+                "correct": false
+            },
+            {
+                "title": "Service level indicator",
+                "correct": false
+            },
+            {
+                "title": "Service level objective",
+                "correct": false
+            },
+            {
+                "title": "Service level agreement",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "There are “Four Golden Signals” that measure a system’s performance and reliability. What are they?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Latency, traffic, saturation, errors",
+                "correct": true
+            },
+            {
+                "title": "Availability, durability, scalability, resiliency",
+                "correct": false
+            },
+            {
+                "title": "Get, post, put, delete",
+                "correct": false
+            },
+            {
+                "title": "KPIs, SLIs, SLOs, SLAs",
+                "correct": false
+            }
+        ]
     }
 ]
