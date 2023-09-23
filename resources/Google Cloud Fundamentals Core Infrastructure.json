@@ -669,5 +669,163 @@
                 "correct": false
             }
         ]
+    },
+    {
+        "title": "What are the advantages of using App Engine’s flexible environment instead of its standard environment? (Select 3).",
+        "imagePath": "",
+        "optionType": "multiChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Google provides automatic in-place security patches.",
+                "correct": false
+            },
+            {
+                "title": "Your application can write to the local disk.",
+                "correct": true
+            },
+            {
+                "title": "You can install third-party binaries across all languages.",
+                "correct": true
+            },
+            {
+                "title": "Your application can execute code in background threads.",
+                "correct": false
+            },
+            {
+                "title": "You can use SSH to connect to the virtual machines on which your application runs.",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "Select the managed compute platform that lets you run stateless containers through web requests or Pub/Sub events.",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Cloud Run",
+                "correct": true
+            },
+            {
+                "title": "Cloud Endpoints",
+                "correct": false
+            },
+            {
+                "title": "Apigee API Management",
+                "correct": false
+            },
+            {
+                "title": "Cloud Source Repositories",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Cloud Run can only pull images from:",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Docker Hub",
+                "correct": false
+            },
+            {
+                "title": "GitHub",
+                "correct": false
+            },
+            {
+                "title": "Self-hosted registries",
+                "correct": false
+            },
+            {
+                "title": "Artifact Registry",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "App Engine is best suited to the development and hosting of which type of application?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "A web application",
+                "correct": true
+            },
+            {
+                "title": "A long-running batch processing application",
+                "correct": false
+            },
+            {
+                "title": "Applications that require at least one instance running at all times.",
+                "correct": false
+            },
+            {
+                "title": "Applications that require full control of the hardware they are running on",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Which Google Cloud service should you choose to perform business analytics and billing on a customer-facing API?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Cloud Run API",
+                "correct": false
+            },
+            {
+                "title": "Apigee API Management",
+                "correct": true
+            },
+            {
+                "title": "Cloud Endpoints",
+                "correct": false
+            },
+            {
+                "title": "Compute Engine API",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Which statements are true about App Engine? (Select 2).",
+        "imagePath": "",
+        "optionType": "multiChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "App Engine manages the hardware and networking infrastructure required to run your code.",
+                "correct": true
+            },
+            {
+                "title": "The daily billing for an App Engine application can drop to zero.",
+                "correct": true
+            },
+            {
+                "title": "App Engine charges you based on the resources you preallocate instead of the resources you use.",
+                "correct": false
+            },
+            {
+                "title": "Developers who write for App Engine do not need to code their applications in any particular way to use the service.",
+                "correct": false
+            },
+            {
+                "title": "App Engine requires you to supply or code your own application load balancing and logging services.",
+                "correct": false
+            }
+        ]
     }
 ]
