@@ -827,5 +827,105 @@
                 "correct": false
             }
         ]
+    },
+    {
+        "title": "Select the advantage of putting the event-driven components of your application into Cloud Functions.",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "In Cloud Functions, code can be written in C# or C++.",
+                "correct": false
+            },
+            {
+                "title": "Cloud Functions handles scaling these components seamlessly.",
+                "correct": true
+            },
+            {
+                "title": "Cloud Functions eliminates the need to use a separate service to trigger application events.",
+                "correct": false
+            },
+            {
+                "title": "In Cloud Functions, processing is always free of charge.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Why would a developer choose to store source code in Cloud Source Repositories? (Select 2)",
+        "imagePath": "",
+        "optionType": "multiChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "To keep code private to a Google Cloud project",
+                "correct": true
+            },
+            {
+                "title": "It is the only way to access your source code in a repository.",
+                "correct": false
+            },
+            {
+                "title": "To reduce work",
+                "correct": true
+            },
+            {
+                "title": "To have total control over the hosting infrastructure",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Why might a Google Cloud customer choose to use Terraform?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Terraform can be used as an infrastructure management system for Kubernetes pods.",
+                "correct": false
+            },
+            {
+                "title": "Terraform can be used to enforce maximum resource utilization and spending limits on your Google Cloud resources.",
+                "correct": false
+            },
+            {
+                "title": "Terraform can be used as an infrastructure management system for Google Cloud resources.",
+                "correct": true
+            },
+            {
+                "title": "Terraform can be used as a version-control system for your Google Cloud infrastructure layout.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Why might a Google Cloud customer choose to use Cloud Functions?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Cloud Functions is a free service for hosting compute operations.",
+                "correct": false
+            },
+            {
+                "title": "Their application has a legacy monolithic structure that they want to separate into microservices.",
+                "correct": false
+            },
+            {
+                "title": "Their application contains event-driven code that they don't want to provision compute resources for.",
+                "correct": true
+            },
+            {
+                "title": "Cloud Functions is the primary way to run Node.js applications in Google Cloud.",
+                "correct": false
+            }
+        ]
     }
 ]
