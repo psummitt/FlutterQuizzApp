@@ -1,0 +1,53 @@
+[
+    {
+        "title": "What is the difference between the Google Cloud Console and Cloud Shell?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "The Cloud Console is a graphical user interface and Cloud Shell is a command-line tool. Both tools allow you to interact with Google Cloud. Even though the Cloud Console can do things Cloud Shell can't do and vice-versa, don’t think of them as alternatives, but think of them as one extremely flexible and powerful interface.",
+        "options": [
+            {
+                "title": "Cloud Shell is a command-line tool, while the Cloud Console is a graphical user interface",
+                "correct": true
+            },
+            {
+                "title": "The Cloud Console is a command-line tool, while Cloud Shell is a graphical user interface",
+                "correct": false
+            },
+            {
+                "title": "Cloud Shell is a locally installed tool, while the Cloud Console is a temporary virtual machine.",
+                "correct": false
+            },
+            {
+                "title": "There is no difference as these tools are 100% identical.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Which of the following does not allow you to interact with Google Cloud?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "There are four ways you can interact with Google Cloud: There’s the Cloud Console, Cloud Shell and the Cloud SDK, the APIs, and the Cloud Mobile App. The Cloud Explorer is not a Google Cloud tool.",
+        "options": [
+            {
+                "title": "Google Cloud Console",
+                "correct": false
+            },
+            {
+                "title": "Cloud Shell",
+                "correct": false
+            },
+            {
+                "title": "REST-based API",
+                "correct": false
+            },
+            {
+                "title": "Cloud Explorer",
+                "correct": true
+            }
+        ]
+    }
+]
+]
