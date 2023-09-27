@@ -256,5 +256,80 @@
                 "correct": false
             }
         ]
+    },
+    {
+        "title": "No resources in Google Cloud can be used without being associated with...",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "All resources in Google Cloud are tracked and their consumption is logged against a project. A project relates resources to a billing method.",
+        "options": [
+            {
+                "title": "A project.",
+                "correct": true
+            },
+            {
+                "title": "A user.",
+                "correct": false
+            },
+            {
+                "title": "A bucket.",
+                "correct": false
+            },
+            {
+                "title": "A virtual machine.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "A budget is set at $500 and an alert is set at 100%. What happens when the full amount is used?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "Budgets in Google Cloud are not a way to prevent spending or stop resources. They are a tool for raising awareness about the consumption of resources so that a business can implement its own consumption management processes.",
+        "options": [
+            {
+                "title": "You have a 4-hour courtesy period before Google shuts down all resources.",
+                "correct": false
+            },
+            {
+                "title": "Everything in the associated project will be suspended because there is no more budget to spend.",
+                "correct": false
+            },
+            {
+                "title": "Nothing. There is no point in sending a notification when there is no budget remaining.",
+                "correct": false
+            },
+            {
+                "title": "A notification email is sent to the Billing Administrator.",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "How do quotas protect Google Cloud customers?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "Quotas are established at reasonable defaults for common cloud usage and proof of concept activities. If you are planning to scale up a production cloud solution you may need to request that the quotas be raised. This is a reasonable checkpoint to verify that actions that might result in a large consumption of resources are reviewed.",
+        "options": [
+            {
+                "title": "By preventing uncontrolled consumption of resources.",
+                "correct": true
+            },
+            {
+                "title": "By preventing resource use in too many zones in a region.",
+                "correct": false
+            },
+            {
+                "title": "By preventing resource use of too many different Google Cloud services.",
+                "correct": false
+            },
+            {
+                "title": "By preventing resource use by unknown users.",
+                "correct": false
+            }
+        ]
     }
 ]
