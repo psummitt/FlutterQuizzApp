@@ -181,5 +181,80 @@
                 "correct": false
             }
         ]
+    },
+    {
+        "title": "Which Google Cloud data storage service offers ACID transactions and can scale globally?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "Cloud Spanner provides ACID (Atomicity, Consistency, Isolation, Durability) properties that enable transactional reads and writes on the database. It can also scale globally.",
+        "options": [
+            {
+                "title": "Cloud Spanner",
+                "correct": true
+            },
+            {
+                "title": "Cloud CDN",
+                "correct": false
+            },
+            {
+                "title": "Cloud Storage",
+                "correct": false
+            },
+            {
+                "title": "Cloud SQL",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "What data storage service might you select if you just needed to migrate a standard relational database running on a single machine in a datacenter to the cloud?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "Cloud SQL offers a PostgreSQL server or a MySQL server as a managed service.",
+        "options": [
+            {
+                "title": "BigQuery",
+                "correct": false
+            },
+            {
+                "title": "Persistent Disk",
+                "correct": false
+            },
+            {
+                "title": "Cloud SQL",
+                "correct": true
+            },
+            {
+                "title": "Cloud Storage",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Which data storage service provides data warehouse services for storing data but also offers an interactive SQL interface for querying the data?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "BigQuery is a data warehousing service that allows the storage of huge data sets while making them immediately processable without having to extract or run the processing in a separate service.",
+        "options": [
+            {
+                "title": "BigQuery",
+                "correct": true
+            },
+            {
+                "title": "Datalab",
+                "correct": false
+            },
+            {
+                "title": "Cloud SQL",
+                "correct": false
+            },
+            {
+                "title": "Dataproc",
+                "correct": false
+            }
+        ]
     }
 ]
