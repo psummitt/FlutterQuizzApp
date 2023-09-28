@@ -395,7 +395,8 @@
             },
             {
                 "title": "Root cause analysis.",
-                "correct": false            },
+                "correct": false
+            },
             {
                 "title": "Testing and release procedures.",
                 "correct": false
