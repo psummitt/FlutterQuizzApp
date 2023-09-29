@@ -227,5 +227,55 @@
                 "correct": false
             }
         ]
+    },
+    {
+        "title": "Which of the following is a feature of Dataproc?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "Fast to start a cluster.",
+        "options": [
+            {
+                "title": "Dataproc allows full control over HDFS advanced settings.",
+                "correct": false
+            },
+            {
+                "title": "It doesn't integrate with Cloud Monitoring, but it has its own monitoring system.",
+                "correct": false
+            },
+            {
+                "title": "Dataproc billing occurs in 10-hour intervals.",
+                "correct": false
+            },
+            {
+                "title": "It typically takes less than 90 seconds to start a cluster.",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "How are Managed Services useful?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "Managed Services are presented as a possible alternative to building your own infrastructure data processing solution.",
+        "options": [
+            {
+                "title": "If you have an existing infrastructure service, Google will manage it for you if you purchase a Managed Services contract.",
+                "correct": false
+            },
+            {
+                "title": "Managed Services may be an alternative to creating and managing infrastructure solutions.",
+                "correct": true
+            },
+            {
+                "title": "Managed Services are more customizable than infrastructure solutions.",
+                "correct": false
+            },
+            {
+                "title": "Managed Services are pay services offered by 3rd party vendors..",
+                "correct": false
+            }
+        ]
     }
 ]
