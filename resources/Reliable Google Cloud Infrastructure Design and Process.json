@@ -1,0 +1,77 @@
+[
+    {
+        "title": "Using SMART criteria, which below would be the least effective KPI?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "user experience design is not measurable or time bound and so would not make a relevant KPI.",
+        "options": [
+            {
+                "title": "Page views per hour",
+                "correct": false
+            },
+            {
+                "title": "Clicks per session",
+                "correct": false
+            },
+            {
+                "title": "User experience design",
+                "correct": true
+            },
+            {
+                "title": "User sign ups per month",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Which most accurately describes a user story?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "it describes a feature from the user's point of view",
+        "options": [
+            {
+                "title": "It is a short description of a feature written from the user's point of view.",
+                "correct": true
+            },
+            {
+                "title": "It is a short description of a typical person using the system.",
+                "correct": false
+            },
+            {
+                "title": "It is a narrative that describes the sequence of steps a typical user would perform to accomplish some task or goal when using the system.",
+                "correct": false
+            },
+            {
+                "title": "It is a requirement of the system you are developing.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Which best describes an SLO?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "Which best describes an SLO?",
+        "options": [
+            {
+                "title": "It is a measurable, time bound key performance indicator for your application.",
+                "correct": false
+            },
+            {
+                "title": "t is a contract with end users that guarantees service quality",
+                "correct": false
+            },
+            {
+                "title": "It is a target measure you want your service to achieve.",
+                "correct": true
+            },
+            {
+                "title": "It is a short, measurable description of an application feature.",
+                "correct": false
+            }
+        ]
+    }
+]
