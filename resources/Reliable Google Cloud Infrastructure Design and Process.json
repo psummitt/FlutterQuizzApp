@@ -323,5 +323,105 @@
                 "correct": false
             }
         ]
+    },
+    {
+        "title": "You are deploying a large-scale web application with users all over the world and a lot of static content. Which load balancer configuration would likely be the most suitable?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "the traffic is HTTP(S), the load balancer should be external and global, and CDN enabled will help performance and cost.",
+        "options": [
+            {
+                "title": "HTTP load balancer with SSL configured.",
+                "correct": false
+            },
+            {
+                "title": "TCP load balancer with SSL configured.",
+                "correct": false
+            },
+            {
+                "title": "UDP load balancer with SSL configured and the CDN enabled.",
+                "correct": false
+            },
+            {
+                "title": "HTTP load balancer with SSL configured and the CDN enabled.",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "You want a secure, private connection between your network and a Google Cloud network. There is not a lot of volume, but the connection needs to be extremely reliable. Which configuration below would you choose?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "this offers a secure extremely reliable connection and is more cost-effective than Cloud Interconnect.",
+        "options": [
+            {
+                "title": "Cloud Interconnect",
+                "correct": false
+            },
+            {
+                "title": "VPN",
+                "correct": false
+            },
+            {
+                "title": "VPC peering",
+                "correct": false
+            },
+            {
+                "title": "VPN with high availability and Cloud Router.",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "You are a large bank deploying an online banking service to Google Cloud. The service needs high volume access to mainframe data on-premises. Which connectivity option would likely be most suitable?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " Cloud Interconnect provides high bandwidth and low latency. It does need encryption at the application level.",
+        "options": [
+            {
+                "title": "Cloud Interconnect",
+                "correct": true
+            },
+            {
+                "title": "HTTPS",
+                "correct": false
+            },
+            {
+                "title": "VPN",
+                "correct": false
+            },
+            {
+                "title": "Peering",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "You have a contract with a service provider to manage your Google VPC networks. You want to connect a network they own to your VPC. Both networks are in Google Cloud. Which Connection option should you choose?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "VPC peering allows connectivity across two VPC networks regardless of whether they belong to the same project or same organization.",
+        "options": [
+            {
+                "title": "VPN with high availability and Cloud Router.",
+                "correct": false
+            },
+            {
+                "title": "VPC peering",
+                "correct": true
+            },
+            {
+                "title": "VPN",
+                "correct": false
+            },
+            {
+                "title": "Cloud Interconnect",
+                "correct": false
+            }
+        ]
     }
 ]
