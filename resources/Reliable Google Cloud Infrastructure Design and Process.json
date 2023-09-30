@@ -223,5 +223,105 @@
                 "correct": true
             }
         ]
+    },
+    {
+        "title": "You are a global financial services company with users all over the world. You need a database service that can provide low latency worldwide with strong consistency. Which service might you choose?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "A key feature of Spanner is scale for relational data with strong consistency, and it is globally distributed to provide low latency. The high availability and automatic replication are also strong features for financial services.",
+        "options": [
+            {
+                "title": "Spanner",
+                "correct": true
+            },
+            {
+                "title": "BigQuery",
+                "correct": false
+            },
+            {
+                "title": "Firestore",
+                "correct": false
+            },
+            {
+                "title": "Cloud SQL",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Currently, you are using Firestore to store information about products, reviews, and user sessions. You'd like to speed up data access in a simple, cost-effective way. What would you recommend?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "Memorystore provides the best fit when considering data model, performance, scale, cost, and availability.",
+        "options": [
+            {
+                "title": "Cache the data using Memorystore.",
+                "correct": true
+            },
+            {
+                "title": "Move the data to BigQuery.",
+                "correct": false
+            },
+            {
+                "title": "Move the data to Spanner.",
+                "correct": false
+            },
+            {
+                "title": "Move the data to Cloud Bigtable.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "You need to store user preferences, product information, and reviews for a website you are building. There won't be a huge amount of data. What would be a simple, cost-effective, managed solution?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "Firestore provides automatic scale ACID transactions and live synchronization and is integrated with Google Cloud and Firebase. It also has a free tier.",
+        "options": [
+            {
+                "title": "Cloud SQL",
+                "correct": false
+            },
+            {
+                "title": "Spanner",
+                "correct": false
+            },
+            {
+                "title": "Firestore",
+                "correct": true
+            },
+            {
+                "title": "BigQuery",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "You want to analyze sales trends. To help achieve this, you want to combine data from your on-premises Oracle database with Google Analytics data and your web server logs. Where might you store the data so it is both easy to query and cost-effective?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "BigQuery is a data warehouse used for data analytics, and so is built for this type of use case. It provides the infrastructure to ingest data from many different sources, which is a requirement too. The cost model of paying for storage and then only for queries run is attractive too.",
+        "options": [
+            {
+                "title": "Cloud SQL",
+                "correct": false
+            },
+            {
+                "title": "BigQuery",
+                "correct": true
+            },
+            {
+                "title": "Firestore",
+                "correct": false
+            },
+            {
+                "title": "Spanner",
+                "correct": false
+            }
+        ]
     }
 ]
