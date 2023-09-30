@@ -423,5 +423,80 @@
                 "correct": false
             }
         ]
+    },
+    {
+        "title": "You need to deploy an existing application that was written in .NET version 4. The application requires Windows servers, and you don't want to change it. Which should you use?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "the approach is a lift-and-shift, which is best supported by Compute Engine because Compute Engine offers full control over virtual machines including operating systems. No repackaging would be required.",
+        "options": [
+            {
+                "title": "App Engine",
+                "correct": false
+            },
+            {
+                "title": "Compute Engine",
+                "correct": true
+            },
+            {
+                "title": "GKE",
+                "correct": false
+            },
+            {
+                "title": "Cloud Functions",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "You've been asked to write a program that uses Vision API to check for inappropriate content in photos that are uploaded to a Cloud Storage bucket. Any photos that are inappropriate should be deleted. What might be the simplest, cheapest way to deploy in this program?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "the requirements for simplest and cheapest are met with Cloud Functions. Cloud Functions are for single purpose functions like image analysis. Cloud Functions also can be triggered by Cloud Storage events, so they provide seamless integration. The payment model based on number of requests, processing time of request (measured in 100ms units), and then other resources consumed is the most suitable of all options offered above. There is a free tier too. Cloud Functions also provides automatic scaling, high availability, and fault tolerance.",
+        "options": [
+            {
+                "title": "Compute Engine",
+                "correct": false
+            },
+            {
+                "title": "App Engine",
+                "correct": false
+            },
+            {
+                "title": "GKE",
+                "correct": false
+            },
+            {
+                "title": "Cloud Functions",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "You have containerized multiple applications using Docker and have deployed them using Compute Engine VMs. You want to save on costs and simplify container management. What might you do?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "The applications are containerized, and GKE will help with the resource efficiency and hence cost, automate many aspects of the container management, and provide the best solution for the scenario.",
+        "options": [
+            {
+                "title": "Rewrite the applications to run in Cloud Functions.",
+                "correct": false
+            },
+            {
+                "title": "Write Terraform scripts for all deployment.",
+                "correct": false
+            },
+            {
+                "title": "Rewrite the applications to run in App Engine standard environment.",
+                "correct": false
+            },
+            {
+                "title": "Migrate the containers to GKE.",
+                "correct": true
+            }
+        ]
     }
 ]
