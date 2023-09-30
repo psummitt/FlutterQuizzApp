@@ -173,5 +173,55 @@
                 "correct": false
             }
         ]
+    },
+    {
+        "title": "Which Google Cloud tools can be used to build a continuous integration pipeline?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "All of the options are correct. Source Repositories provides a private Git repository, Cloud Build builds containers, and Container Registry is a Docker images repository that performs vulnerability analysis. All three components are typically used in a continuous integration pipeline where on a commit, code is built and tested and an image is built and published to a registry.",
+        "options": [
+            {
+                "title": "Container Registry",
+                "correct": false
+            },
+            {
+                "title": "All of these",
+                "correct": true
+            },
+            {
+                "title": "Cloud Source Repositories",
+                "correct": false
+            },
+            {
+                "title": "Cloud Build",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "What Google Cloud feature would be easiest to use to automate a build in response to code being checked into your source code repository?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "Cloud Build triggers have been designed specifically to trigger a build automatically when changes are made to source code.",
+        "options": [
+            {
+                "title": "CloudScheduler",
+                "correct": false
+            },
+            {
+                "title": "Cloud Functions",
+                "correct": false
+            },
+            {
+                "title": "AppEngine",
+                "correct": false
+            },
+            {
+                "title": "Build triggers",
+                "correct": true
+            }
+        ]
     }
 ]
