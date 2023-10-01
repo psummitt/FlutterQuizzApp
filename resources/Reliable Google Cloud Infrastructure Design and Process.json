@@ -548,5 +548,105 @@
                 "correct": false
             }
         ]
+    },
+    {
+        "title": "What do you have to do to enable encryption when using Cloud Storage?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "Cloud Storage always encrypts data on the server side before it is written to disk. For server side encryption there are options of customer supplied or customer managed encryption keys, but these are only usually used for compliance reasons and are not necessary.",
+        "options": [
+            {
+                "title": "Create an encryption key using Cloud Key Management Service, and select it when creating a Cloud Storage bucket.",
+                "correct": false
+            },
+            {
+                "title": "Enable encryption and upload a key.",
+                "correct": false
+            },
+            {
+                "title": "Nothing as encryption is enabled by default.",
+                "correct": true
+            },
+            {
+                "title": "Simply enable encryption when configuring a bucket.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "What Google Cloud service can you use to enforce the principle of least privilege when using Google Cloud?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "the principle of least privilege requires user permissions that are just enough to do what they need, and no more. IAM provides this level of control.",
+        "options": [
+            {
+                "title": "Firewall rules",
+                "correct": false
+            },
+            {
+                "title": "IAM members and roles",
+                "correct": true
+            },
+            {
+                "title": "Encryption keys",
+                "correct": false
+            },
+            {
+                "title": "SSL certificates",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "You don't want programmers to have access to production resources. What's the easiest way to do this in Google Cloud?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "the simplest way is to have separate projects and not give developers access to the production project.",
+        "options": [
+            {
+                "title": "Use different service accounts for production and development resources with your project.",
+                "correct": false
+            },
+            {
+                "title": "Create a firewall rule that blocks developer access to production servers and databases.",
+                "correct": false
+            },
+            {
+                "title": "Create development and production projects, and don't give developers access to production.",
+                "correct": true
+            },
+            {
+                "title": "Set up private access and Identity-Aware Proxy.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Which Google Cloud features could help reduce the risk of DDoS attacks?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "HTTP Load Balancing mitigates and absorbs many layer 4 below attacks such as SYN flood, IP fragment floods, and port exhaustion. CDN caches cacheable content at points of presence close to users. In the event of a DDoS attack for cacheable content, the requests are sent to points of presence, not to your servers/infrastructures, thus increasing the likelihood of the attack being absorbed. Google Cloud Armor is built for DDos mitigation, working with Cloud Load Balancing to detect DDoS attacks.",
+        "options": [
+            {
+                "title": "HTTP global load balancer",
+                "correct": false
+            },
+            {
+                "title": "All of these",
+                "correct": true
+            },
+            {
+                "title": "CloudCDN",
+                "correct": false
+            },
+            {
+                "title": "Google Cloud Armor",
+                "correct": false
+            }
+        ]
     }
 ]
