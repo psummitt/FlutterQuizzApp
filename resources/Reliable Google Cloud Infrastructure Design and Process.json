@@ -648,5 +648,105 @@
                 "correct": false
             }
         ]
+    },
+    {
+        "title": "You made a minor update to a service and would like to test it in production by sending a small portion of requests to the new version. Which would you choose?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "Canary deployment aims to eliminate/reduce risks by applying the update to a small subset of users to test out a new feature and best fits the requirements of the question.",
+        "options": [
+            {
+                "title": "Canary deployment",
+                "correct": true
+            },
+            {
+                "title": "Rolling update",
+                "correct": false
+            },
+            {
+                "title": "Blue/green deployment",
+                "correct": false
+            },
+            {
+                "title": "A/B testing",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Your service has an availability SLO of 99%. What could you use to monitor whether you are meeting it?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "Availability is the percentage of time a system is running and able to process requests. Monitoring this metric will enable the derivation of the SLO metric.",
+        "options": [
+            {
+                "title": "Uptime check",
+                "correct": true
+            },
+            {
+                "title": "Liveness probe",
+                "correct": false
+            },
+            {
+                "title": "Readiness probe",
+                "correct": false
+            },
+            {
+                "title": "Health check",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "You're deploying test environments using Compute Engine VMs. Some downtime is acceptable, and it is very important to deploy them as inexpensively as possible. What single thing below could save you the most money?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "These are the most cost-effective solution as required in the question(up to 80% lower than equivalent non-preemptible machines) and the fact that some downtime is acceptable means that the requirement can be met with preemptible machines.",
+        "options": [
+            {
+                "title": "Sole tenant nodes",
+                "correct": false
+            },
+            {
+                "title": "Sustained use discount",
+                "correct": false
+            },
+            {
+                "title": "Preemptible machines",
+                "correct": true
+            },
+            {
+                "title": "Committed use discount",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "You've made a minor fix to one of your services. You want to deploy the new version with no downtime. Which would you choose?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " A rolling update will update instances incrementally until all have been updated. This strategy can be controlled, for example, by using a managed instance group with Compute Engine or with GKE",
+        "options": [
+            {
+                "title": "Blue/green deployment",
+                "correct": false
+            },
+            {
+                "title": "Canary deployment",
+                "correct": false
+            },
+            {
+                "title": "Rolling update",
+                "correct": true
+            },
+            {
+                "title": "A/B test",
+                "correct": false
+            }
+        ]
     }
 ]
