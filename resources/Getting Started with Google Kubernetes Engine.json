@@ -1,0 +1,102 @@
+[
+    {
+        "title": "One of the main characteristics of cloud computing is that resources are elastic. What does that mean?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Resources can be allocated automatically.",
+                "correct": false
+            },
+            {
+                "title": "When customers need more resources, they can get more. When they need less, they can scale back.",
+                "correct": true
+            },
+            {
+                "title": "You can quickly get more resources when you need them.",
+                "correct": false
+            },
+            {
+                "title": "You share resources from a large pool that enables economies of scale.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "You are considering deploying a solution by using containers on Google Cloud. What Google Cloud solution provides a managed compute platform with native support for containers?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Cloud Functions",
+                "correct": false
+            },
+            {
+                "title": "Google Kubernetes Engine clusters",
+                "correct": true
+            },
+            {
+                "title": "Compute Engine autoscaling groups",
+                "correct": false
+            },
+            {
+                "title": "Container Registry",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "What Identity and Access Management (IAM) hierarchy structure is best for building an application in Google Cloud?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Create a new organization node for the project, then create all projects and resources inside the new organization node.",
+                "correct": false
+            },
+            {
+                "title": "Create new projects and resources inside departmental folders for the resources needed, organized by the component applications.",
+                "correct": false
+            },
+            {
+                "title": "Create a new folder inside your organization node, then create projects inside that folder for the resources.",
+                "correct": true
+            },
+            {
+                "title": "Create new projects for each of the component applications, then create folders inside those for the resources.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "You are developing a new product for a customer and need to be mindful of cost and resources. What Google Cloud tools can be used to ensure costs stay manageable before consumption gets too high?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Configure the billing account at the product folder level in the resource hierarchy.",
+                "correct": false
+            },
+            {
+                "title": "Set up budgets and alerts at the project level.",
+                "correct": true
+            },
+            {
+                "title": "Configure the billing account for each project associated with the product.",
+                "correct": false
+            },
+            {
+                "title": "Configure quotas and limits for each product folder.",
+                "correct": false
+            }
+        ]
+    }
+]
