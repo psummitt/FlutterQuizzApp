@@ -248,5 +248,105 @@
                 "correct": false
             }
         ]
+    },
+    {
+        "title": "You want to use kubectl to configure your cluster, but first you must configure it. Where does the kubectl command store its configuration file?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "The configuration information is stored in the $HOME/.kube/config file.",
+                "correct": true
+            },
+            {
+                "title": "The configuration information is entered in Kubectl before executing commands.",
+                "correct": false
+            },
+            {
+                "title": "The configuration information is stored in environment variables in the current shell. when required.",
+                "correct": false
+            },
+            {
+                "title": "kubectl uses the same authorization and credential tokens as the gcloud CLI utilities.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "What command can be used to identify which containers in a Pod are successfully running, and which are failing or having issues?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "kubectl exec",
+                "correct": false
+            },
+            {
+                "title": "kubectl get pod",
+                "correct": false
+            },
+            {
+                "title": "kubectl logs",
+                "correct": false
+            },
+            {
+                "title": "kubectl describe pod",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "You attempt to update a container image to a new version by using the “kubectl describe pod command,” but are not successful. The output of the command shows that the Pod status has changed to “Pending,”the state is shown as “Waiting,” and the reason shown is “ImagePullBackOff.” What is the most probable cause of this error?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "The container image failed to download.",
+                "correct": true
+            },
+            {
+                "title": "The container image pull policy has been set to 'Never.'",
+                "correct": false
+            },
+            {
+                "title": "The latest container image has already been deployed.",
+                "correct": false
+            },
+            {
+                "title": "You specified an invalid container name.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Which command can be used to display error messages from containers in a Pod that are failing to run successfully?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "kubectl describe pod",
+                "correct": false
+            },
+            {
+                "title": "kubectl exec -it -- sh",
+                "correct": false
+            },
+            {
+                "title": "kubectl logs",
+                "correct": true
+            },
+            {
+                "title": "kubectl get pod",
+                "correct": false
+            }
+        ]
     }
 ]
