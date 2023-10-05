@@ -98,5 +98,155 @@
                 "correct": false
             }
         ]
+    },
+    {
+        "title": "What is significant about the topmost layer in a container? Choose two options.",
+        "imagePath": "",
+        "optionType": "multiChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Reading from or writing to the topmost layer requires special software libraries.",
+                "correct": false
+            },
+            {
+                "title": "The topmost layer's contents are ephemeral. When the container is deleted, the contents are lost.",
+                "correct": true
+            },
+            {
+                "title": "An application running in a container can only modify the topmost layer.",
+                "correct": true
+            },
+            {
+                "title": "Reading from or writing to the topmost layer requires special privileges.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "When using Kubernetes, you must describe the desired state you want, and Kubernetes's job is to make the deployed system conform to that desired state and keep it there despite failures. What is the name of this management approach?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Virtualization",
+                "correct": false
+            },
+            {
+                "title": "Imperative configuration",
+                "correct": false
+            },
+            {
+                "title": "Declarative configuration",
+                "correct": true
+            },
+            {
+                "title": "Containerization",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "What is the name for the computers in a Google Kubernetes Engine cluster that run workloads?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Container images",
+                "correct": false
+            },
+            {
+                "title": "Control planes",
+                "correct": false
+            },
+            {
+                "title": "Nodes",
+                "correct": true
+            },
+            {
+                "title": "Containers",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Google Kubernetes Engine offers two modes of operation: Autopilot and Standard mode. Which one of the options below is a use case for using Standard mode.",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "You require SSH access to nodes.",
+                "correct": true
+            },
+            {
+                "title": "You want machine types based on workloads.",
+                "correct": false
+            },
+            {
+                "title": "You want to avoid cluster configuration.",
+                "correct": false
+            },
+            {
+                "title": "You want to only pay for Pods and not nodes.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "You want to deploy multiple copies of an application in an effort to load balance traffic. How should you deploy Pods to production to achieve this?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Create a Service manifest for the LoadBalancer that specifies the number of replicas you want to run.",
+                "correct": false
+            },
+            {
+                "title": "Create separate named Pod manifests for each instance of the application, and deploy as many as you need.",
+                "correct": false
+            },
+            {
+                "title": "Deploy the Pod manifest multiple times until you achieve the number of replicas required.",
+                "correct": false
+            },
+            {
+                "title": "Create a deployment manifest that specifies the number of replicas that you want to run",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "When designing an application, you want the containers to be located as close to each other as possible in order to minimize latency. Which design decision helps meet this requirement?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Place the containers in the same Pod.",
+                "correct": true
+            },
+            {
+                "title": "Place the containers in the same cluster.",
+                "correct": false
+            },
+            {
+                "title": "Give the containers the same labels.",
+                "correct": false
+            },
+            {
+                "title": "Place the containers in the same Namespace.",
+                "correct": false
+            }
+        ]
     }
 ]
