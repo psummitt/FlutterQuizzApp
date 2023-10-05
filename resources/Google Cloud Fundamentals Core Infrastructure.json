@@ -1,0 +1,1060 @@
+[
+    {
+        "title": "Consider a single hierarchy of Google Cloud resources. Which of these situations is possible? (Choose 3 responses.)",
+        "imagePath": "",
+        "optionType": "multiChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "The reason for this question is because such and such",
+        "options": [
+            {
+                "title": "There is no organization node, but there is at least one folder.",
+                "correct": false
+            },
+            {
+                "title": "There is no organization node, and there are no folders.",
+                "correct": true
+            },
+            {
+                "title": "There are two or more organization nodes.",
+                "correct": false
+            },
+            {
+                "title": "There is an organization node, and there is at least one folder.",
+                "correct": true
+            },
+            {
+                "title": "There is an organization node, and there are no folders.",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "What is the difference between Identity and Access Management (IAM) basic roles and IAM predefined roles?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "The reason for this question is because such and such",
+        "options": [
+            {
+                "title": "Basic roles only apply to the owner of the Google Cloud project. Predefined roles can be associated with any user.",
+                "correct": false
+            },
+            {
+                "title": "Basic roles can only be granted to single users. Predefined roles can be associated with a group.",
+                "correct": false
+            },
+            {
+                "title": "Basic roles only allow viewing, creating, and deleting resources. Predefined roles allow any modification.",
+                "correct": false
+            },
+            {
+                "title": "Basic roles affect all resources in a Google Cloud project. Predefined roles apply to a specific service in a project.",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "Select the option that displays IAM roles from general to specific.",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "The reason for this question is because such and such",
+        "options": [
+            {
+                "title": "Custom roles, predefined roles, basic roles",
+                "correct": false
+            },
+            {
+                "title": "Basic roles, predefined roles, custom roles",
+                "correct": true
+            },
+            {
+                "title": "Predefined roles, custom roles, basic roles",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Which statement best describes how Google Cloud resources are associated within the resource hierarchy?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "All Google Cloud resources are associated with a project.",
+        "options": [
+            {
+                "title": "All Google Cloud resources are associated with a project.",
+                "correct": true
+            },
+            {
+                "title": "Google Cloud resources are not associated with the resource hierarchy.",
+                "correct": false
+            },
+            {
+                "title": "All Google Cloud resources are associated with a folder.",
+                "correct": false
+            },
+            {
+                "title": "All Google Cloud resources are associated with an organization.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "How does the resource hierarchy control how IAM policies are inherited?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "IAM policies that are implemented by lower-level policies can override the policies defined at a higher level.",
+                "correct": true
+            },
+            {
+                "title": "GIAM policies that are implemented higher in the resource hierarchy deny access that is granted by lower-level policies.",
+                "correct": false
+            },
+            {
+                "title": "IAM policies are only implemented at the project level; they cannot be amended by lower levels of the resource hierarchy.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Which way of accessing Google Cloud lets you control services through the code you write?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "APIs",
+                "correct": true
+            },
+            {
+                "title": "The Cloud SDK and Cloud Shell",
+                "correct": false
+            },
+            {
+                "title": "The Cloud Console mobile app",
+                "correct": false
+            },
+            {
+                "title": "The Cloud Console",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "When would you choose to have an organization node? (Select two)",
+        "imagePath": "",
+        "optionType": "multiChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "When you want to organize resources into projects",
+                "correct": false
+            },
+            {
+                "title": "When you want to create folders",
+                "correct": true
+            },
+            {
+                "title": "When you want to centrally apply organization-wide policies",
+                "correct": true
+            },
+            {
+                "title": "There’s no choice; organization nodes are mandatory.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Your company has two Google Cloud projects and you want them to share policies. What is the least error-prone way to set this up?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Define the new shared policy in the organization node.",
+                "correct": false
+            },
+            {
+                "title": "Place both projects into a folder, and define the policies on that folder.",
+                "correct": true
+            },
+            {
+                "title": "Duplicate all the policies from one project onto the other.",
+                "correct": false
+            },
+            {
+                "title": "Create shared resource policies on the common resources that are used in both projects.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Which statement describes the correct Cloud Storage use case?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Cloud Storage provides durable and highly available object storage.",
+                "correct": true
+            },
+            {
+                "title": "Cloud Storage provides the root file system of a Linux virtual machine.",
+                "correct": false
+            },
+            {
+                "title": "Cloud Storage provides data warehousing services.",
+                "correct": false
+            },
+            {
+                "title": "Cloud Storage provides RDBMS (Relational Database Management System) services.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "How are Firestore and Bigtable alike? (Select two answers.)",
+        "imagePath": "",
+        "optionType": "multiChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "They both offer SQL-like queries.",
+                "correct": false
+            },
+            {
+                "title": "They are both highly scalable.",
+                "correct": true
+            },
+            {
+                "title": "They both have a free daily quota.",
+                "correct": false
+            },
+            {
+                "title": "They are both NoSQL databases.",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "Which SQL database service can scale to petabyte database sizes?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Firestore",
+                "correct": false
+            },
+            {
+                "title": "Cloud Spanner",
+                "correct": false
+            },
+            {
+                "title": "Cloud SQL",
+                "correct": false
+            },
+            {
+                "title": "Bigtable",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "Your application needs to store data with strong transactional consistency, and you want seamless scaling up. Which storage option is the best choice for your application?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Cloud SQL",
+                "correct": false
+            },
+            {
+                "title": "Cloud Spanner",
+                "correct": true
+            },
+            {
+                "title": "Firestore",
+                "correct": false
+            },
+            {
+                "title": "Bigtable",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "You manufacture devices with sensors and need to stream huge amounts of data from these devices to a storage option in the cloud. Which storage option is the best choice for your application?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Cloud SQL",
+                "correct": false
+            },
+            {
+                "title": "Cloud Spanner",
+                "correct": false
+            },
+            {
+                "title": "Firestore",
+                "correct": false
+            },
+            {
+                "title": "Bigtable",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "Why would a customer consider the Coldline Storage class?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "To save money on storing frequently accessed data",
+                "correct": false
+            },
+            {
+                "title": "To save money on storing infrequently accessed data",
+                "correct": true
+            },
+            {
+                "title": "To improve security",
+                "correct": false
+            },
+            {
+                "title": "To use the Coldline Storage API",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Which statement best describes how VPC routers and firewalls work?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "They are managed by Google in virtual machines and customers cannot modify them.",
+                "correct": false
+            },
+            {
+                "title": "They are managed by Google as a built-in feature.",
+                "correct": true
+            },
+            {
+                "title": "They are managed by Google in virtual machines and customers can tune or deactivate them.",
+                "correct": false
+            },
+            {
+                "title": "Customers provision virtual machines and run their routers and firewalls in them.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "A Google Cloud customer wants to load-balance traffic among the backend VMs that form part of a multi-tier application. Which load-balancing option should this customer choose?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "The regional internal load balancer",
+                "correct": true
+            },
+            {
+                "title": "The global TCP proxy",
+                "correct": false
+            },
+            {
+                "title": "The global HTTP(S) load balancer",
+                "correct": false
+            },
+            {
+                "title": "The regional load balancer",
+                "correct": false
+            },
+            {
+                "title": "The global SSL proxy",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Preemptible VMs can offer advantages over a standard Compute Engine VM. What is a reason customers choose preemptible VMs?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "The per-hour price of preemptible VMs incorporates a substantial discount.",
+        "options": [
+            {
+                "title": "To reduce cost",
+                "correct": true
+            },
+            {
+                "title": "To reduce cost on premium operating systems",
+                "correct": false
+            },
+            {
+                "title": "To use custom machine types",
+                "correct": false
+            },
+            {
+                "title": "To improve performance",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Which interconnect option is a service level agreement (SLA) available for?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Direct Peering",
+                "correct": false
+            },
+            {
+                "title": "Dedicated Interconnect",
+                "correct": true
+            },
+            {
+                "title": "Carrier Peering",
+                "correct": false
+            },
+            {
+                "title": "Standard Network Tier",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Which term describes a secure, individual, private cloud-computing model hosted within a public cloud?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Virtual private cloud (VPC)",
+                "correct": true
+            },
+            {
+                "title": "Content delivery network (CDN)",
+                "correct": false
+            },
+            {
+                "title": "Virtual private network (VPN)",
+                "correct": false
+            },
+            {
+                "title": "Domain name system (DNS)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Select the true statement about Google’s VPC networks and subnets.",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Networks are regional, and subnets are zonal.",
+                "correct": false
+            },
+            {
+                "title": "Networks are global, and subnets are regional.",
+                "correct": true
+            },
+            {
+                "title": "Networks are global, and subnets are zonal.",
+                "correct": false
+            },
+            {
+                "title": "Both networks and subnets are global.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Select two reasons for using containers to deploy applications. (Choose 2 responses.)",
+        "imagePath": "",
+        "optionType": "multiChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Allocating resources in which to run containers is not necessary.",
+                "correct": false
+            },
+            {
+                "title": "It creates consistency across development, testing, and production environments.",
+                "correct": true
+            },
+            {
+                "title": "Migrating workloads is simpler.",
+                "correct": true
+            },
+            {
+                "title": "It provides tight coupling between applications and operating systems.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "What is a Kubernetes pod?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "A group of nodes",
+                "correct": false
+            },
+            {
+                "title": "A group of clusters",
+                "correct": false
+            },
+            {
+                "title": "A group of VMs",
+                "correct": false
+            },
+            {
+                "title": "A group of containers",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "How do containers access an operating system?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Containers use a shared base operating system stored in a shared kernel layer.",
+                "correct": true
+            },
+            {
+                "title": "Each container has its own instance of an operating system.",
+                "correct": false
+            },
+            {
+                "title": "Containers use a shared base operating system stored in a shared runtime layer.",
+                "correct": false
+            },
+            {
+                "title": "Containers use a shared base operating system stored in a Cloud Storage bucket.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Where do the resources used to build Google Kubernetes Engine clusters come from?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Compute Engine",
+                "correct": true
+            },
+            {
+                "title": "Bare metal servers",
+                "correct": false
+            },
+            {
+                "title": "App Engine",
+                "correct": false
+            },
+            {
+                "title": "Cloud Storage",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "What is a Kubernetes cluster?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "A group of containers that provide high availability for applications.",
+                "correct": false
+            },
+            {
+                "title": "A group of pods that manage the administration of a Kubernetes application.",
+                "correct": false
+            },
+            {
+                "title": "A group of machines where Kubernetes can schedule workloads.",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "How do you keep your Kubernetes version updated in Google Kubernetes Engine?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "You are required to set up a cron job to periodically check the Kubernetes version in your cluster.",
+                "correct": false
+            },
+            {
+                "title": "The Google Kubernetes Engine team periodically performs automatic upgrades of your cluster to newer stable versions.",
+                "correct": true
+            },
+            {
+                "title": "You cannot update a running cluster. You need to create a copy of the cluster with the updated Kubernetes version.",
+                "correct": false
+            },
+            {
+                "title": "You need to stop your cluster and manually update the Kubernetes version in your cluster.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Anthos provides a rich set of tools for monitoring and maintaining the consistency of your applications across which of the following locations?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Applications hosted with multiple cloud providers only.",
+                "correct": false
+            },
+            {
+                "title": "Applications hosted with one cloud provider only.",
+                "correct": false
+            },
+            {
+                "title": "Applications hosted on-premises, in the cloud, or in multiple clouds.",
+                "correct": true
+            },
+            {
+                "title": "Applications hosted on-premises only.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "What are the advantages of using App Engine’s flexible environment instead of its standard environment? (Select 3).",
+        "imagePath": "",
+        "optionType": "multiChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Google provides automatic in-place security patches.",
+                "correct": false
+            },
+            {
+                "title": "Your application can write to the local disk.",
+                "correct": true
+            },
+            {
+                "title": "You can install third-party binaries across all languages.",
+                "correct": true
+            },
+            {
+                "title": "Your application can execute code in background threads.",
+                "correct": false
+            },
+            {
+                "title": "You can use SSH to connect to the virtual machines on which your application runs.",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "Select the managed compute platform that lets you run stateless containers through web requests or Pub/Sub events.",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Cloud Run",
+                "correct": true
+            },
+            {
+                "title": "Cloud Endpoints",
+                "correct": false
+            },
+            {
+                "title": "Apigee API Management",
+                "correct": false
+            },
+            {
+                "title": "Cloud Source Repositories",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Cloud Run can only pull images from:",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Docker Hub",
+                "correct": false
+            },
+            {
+                "title": "GitHub",
+                "correct": false
+            },
+            {
+                "title": "Self-hosted registries",
+                "correct": false
+            },
+            {
+                "title": "Artifact Registry",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "App Engine is best suited to the development and hosting of which type of application?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "A web application",
+                "correct": true
+            },
+            {
+                "title": "A long-running batch processing application",
+                "correct": false
+            },
+            {
+                "title": "Applications that require at least one instance running at all times.",
+                "correct": false
+            },
+            {
+                "title": "Applications that require full control of the hardware they are running on",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Which Google Cloud service should you choose to perform business analytics and billing on a customer-facing API?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Cloud Run API",
+                "correct": false
+            },
+            {
+                "title": "Apigee API Management",
+                "correct": true
+            },
+            {
+                "title": "Cloud Endpoints",
+                "correct": false
+            },
+            {
+                "title": "Compute Engine API",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Which statements are true about App Engine? (Select 2).",
+        "imagePath": "",
+        "optionType": "multiChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "App Engine manages the hardware and networking infrastructure required to run your code.",
+                "correct": true
+            },
+            {
+                "title": "The daily billing for an App Engine application can drop to zero.",
+                "correct": true
+            },
+            {
+                "title": "App Engine charges you based on the resources you preallocate instead of the resources you use.",
+                "correct": false
+            },
+            {
+                "title": "Developers who write for App Engine do not need to code their applications in any particular way to use the service.",
+                "correct": false
+            },
+            {
+                "title": "App Engine requires you to supply or code your own application load balancing and logging services.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Select the advantage of putting the event-driven components of your application into Cloud Functions.",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "In Cloud Functions, code can be written in C# or C++.",
+                "correct": false
+            },
+            {
+                "title": "Cloud Functions handles scaling these components seamlessly.",
+                "correct": true
+            },
+            {
+                "title": "Cloud Functions eliminates the need to use a separate service to trigger application events.",
+                "correct": false
+            },
+            {
+                "title": "In Cloud Functions, processing is always free of charge.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Why would a developer choose to store source code in Cloud Source Repositories? (Select 2)",
+        "imagePath": "",
+        "optionType": "multiChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "To keep code private to a Google Cloud project",
+                "correct": true
+            },
+            {
+                "title": "It is the only way to access your source code in a repository.",
+                "correct": false
+            },
+            {
+                "title": "To reduce work",
+                "correct": true
+            },
+            {
+                "title": "To have total control over the hosting infrastructure",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Why might a Google Cloud customer choose to use Terraform?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Terraform can be used as an infrastructure management system for Kubernetes pods.",
+                "correct": false
+            },
+            {
+                "title": "Terraform can be used to enforce maximum resource utilization and spending limits on your Google Cloud resources.",
+                "correct": false
+            },
+            {
+                "title": "Terraform can be used as an infrastructure management system for Google Cloud resources.",
+                "correct": true
+            },
+            {
+                "title": "Terraform can be used as a version-control system for your Google Cloud infrastructure layout.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Why might a Google Cloud customer choose to use Cloud Functions?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Cloud Functions is a free service for hosting compute operations.",
+                "correct": false
+            },
+            {
+                "title": "Their application has a legacy monolithic structure that they want to separate into microservices.",
+                "correct": false
+            },
+            {
+                "title": "Their application contains event-driven code that they don't want to provision compute resources for.",
+                "correct": true
+            },
+            {
+                "title": "Cloud Functions is the primary way to run Node.js applications in Google Cloud.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "You want to create alerts on your Google Cloud resources, such as when health checks fail. Which is the best Google Cloud product to use?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Cloud Monitoring",
+                "correct": true
+            },
+            {
+                "title": "Cloud Functions",
+                "correct": false
+            },
+            {
+                "title": "Cloud Trace",
+                "correct": false
+            },
+            {
+                "title": "Error Reporting",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Which definition best describes a service level indicator (SLI)?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "A percentage goal of a measure you intend your service to achieve",
+                "correct": false
+            },
+            {
+                "title": "A carefully selected monitoring metric that measures one aspect of a service's reliability.",
+                "correct": true
+            },
+            {
+                "title": "A contract with your customers regarding service performance",
+                "correct": false
+            },
+            {
+                "title": "A key performance indicator; for example, clicks per session or customer signups",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Select the two correct statements about Cloud Logging.",
+        "imagePath": "",
+        "optionType": "multiChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Cloud Logging requires the use of a third-party monitoring agent.",
+                "correct": false
+            },
+            {
+                "title": "Cloud Logging lets you define metrics based on your logs.",
+                "correct": true
+            },
+            {
+                "title": "Cloud Logging lets you define uptime checks.",
+                "correct": false
+            },
+            {
+                "title": "Cloud Logging requires you to store your logs in BigQuery or Cloud Storage.",
+                "correct": false
+            },
+            {
+                "title": "Cloud Logging lets you view logs from your applications and filter and search on them.",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "Which option describes a commitment made to your customers that your systems and applications will have only a certain amount of “downtime”?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Key performance indicator",
+                "correct": false
+            },
+            {
+                "title": "Service level indicator",
+                "correct": false
+            },
+            {
+                "title": "Service level objective",
+                "correct": false
+            },
+            {
+                "title": "Service level agreement",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "There are “Four Golden Signals” that measure a system’s performance and reliability. What are they?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Latency, traffic, saturation, errors",
+                "correct": true
+            },
+            {
+                "title": "Availability, durability, scalability, resiliency",
+                "correct": false
+            },
+            {
+                "title": "Get, post, put, delete",
+                "correct": false
+            },
+            {
+                "title": "KPIs, SLIs, SLOs, SLAs",
+                "correct": false
+            }
+        ]
+    }
+]

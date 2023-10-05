@@ -1,0 +1,281 @@
+[
+    {
+        "title": "Which Google Cloud Interconnect service requires a connection in a Google Cloud colocation facility and provides 10 Gbps per link?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "Dedicated Interconnect requires a connection in a Google Cloud colocation facility and provides 10 Gbps per link.",
+        "options": [
+            {
+                "title": "Dedicated Interconnect",
+                "correct": true
+            },
+            {
+                "title": "Carrier Peering",
+                "correct": false            
+            },
+            {
+                "title": "Cloud VPN",
+                "correct": false            
+            },
+            {
+                "title": "Partner Interconnect",
+                "correct": false
+            },
+            {
+                "title": "Direct Peering",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Which of the following approaches to multi-project networking, uses a centralized network administration model?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "Shared VPC is a centralized approach to multi-project networking, because security and network policy occurs in a single designated VPC network.",
+        "options": [
+            {
+                "title": "VPC Network Peering",
+                "correct": false            
+            },
+            {
+                "title": "Cloud VPN",
+                "correct": false
+            },
+            {
+                "title": "Shared VPC",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "What is the purpose of Virtual Private Networking (VPN)?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "VPNs use IPSec tunnels to provide an encapsulated and encrypted path through a hostile or untrusted environment.",
+        "options": [
+            {
+                "title": "VPNs are also called access control lists, or ACLs, and they limit network access.",
+                "correct": false            
+            },
+            {
+                "title": "The main purpose is to encrypt data so that it can be stored in an encrypted format.",
+                "correct": false
+            },
+            {
+                "title": "To enable a secure communication method (a tunnel) to connect two trusted environments through an untrusted environment, such as the Internet.",
+                "correct": true
+            },
+            {
+                "title": "It is a method to detect intruders at the edge of a network boundary.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "If you cannot meet Google’s peering requirements, which network connection service should you choose to connect to Google Workspace and YouTube?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "Carrier Peering allows you to connect to Google Workspace and YouTube without meeting Google’s peering requirements.",
+        "options": [
+            {
+                "title": "Direct Peering",
+                "correct": false            
+            },
+            {
+                "title": "Partner Interconnect",
+                "correct": false
+            },
+            {
+                "title": "Carrier Peering",
+                "correct": true
+            },
+            {
+                "title": "Dedicated Interconnect",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Which of the following are applicable autoscaling policies for managed instance groups?",
+        "imagePath": "",
+        "optionType": "multiChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "CPU utilization",
+                "correct": true            
+            },
+            {
+                "title": "Load balancing capacity",
+                "correct": true
+            },
+            {
+                "title": "Monitoring metrics",
+                "correct": true
+            },
+            {
+                "title": "Queue-based workload",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "Which of the following is not a Google Cloud load balancing service?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "Cloud Load Balancing is a fully distributed, software-defined, managed service for all your traffic. It is not an instance or device based solution, so you won’t be locked into physical load balancing infrastructure.",
+        "options": [
+            {
+                "title": "Network load balancing",
+                "correct": false           
+            },
+            {
+                "title": "Hardware-defined load balancing",
+                "correct": true
+            },
+            {
+                "title": "TCP proxy load balancing",
+                "correct": false
+            },
+            {
+                "title": "Internal load balancing",
+                "correct": false
+            },
+            {
+                "title": "HTTP(S) load balancing",
+                "correct": false
+            },
+            {
+                "title": "SSL proxy load balancing",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Which three Google Cloud load balancing services support IPv6 clients?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Network load balancing",
+                "correct": false           
+            },
+            {
+                "title": "SSL proxy load balancing",
+                "correct": true
+            },
+            {
+                "title": "Internal load balancing",
+                "correct": false
+            },
+            {
+                "title": "HTTP(S) load balancing",
+                "correct": false
+            },
+            {
+                "title": "TCP proxy load balancing",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "What does Google Cloud Marketplace offer?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "Google Cloud Marketplace offers production-grade solutions from third-party vendors who have already created their own deployment configurations based on Terraform.",
+        "options": [
+            {
+                "title": "Production-grade solutions from third-party vendors who have already created their own deployment configurations based on Terraform",
+                "correct": true
+            },
+            {
+                "title": "A centralized billing platform for all Google Cloud services and applications",
+                "correct": false
+            },
+            {
+                "title": "A platform for trading VM instances",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "What’s the benefit of writing templates for your Terraform configuration?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "After you create a template, you can reuse them across deployments as necessary. Similarly, if you find yourself rewriting configurations that share very similar properties, you can abstract the shared parts into templates.",
+        "options": [
+            {
+                "title": "Allows you to run configuration management software.",
+                "correct": false
+            },
+            {
+                "title": "Allows you to abstract part of your configuration into individual building blocks that you can reuse",
+                "correct": true
+            },
+            {
+                "title": "Allows you to hardcode properties for your resources",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Which of the following is a feature of Dataproc?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "Fast to start a cluster.",
+        "options": [
+            {
+                "title": "Dataproc allows full control over HDFS advanced settings.",
+                "correct": false
+            },
+            {
+                "title": "It doesn't integrate with Cloud Monitoring, but it has its own monitoring system.",
+                "correct": false
+            },
+            {
+                "title": "Dataproc billing occurs in 10-hour intervals.",
+                "correct": false
+            },
+            {
+                "title": "It typically takes less than 90 seconds to start a cluster.",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "How are Managed Services useful?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "Managed Services are presented as a possible alternative to building your own infrastructure data processing solution.",
+        "options": [
+            {
+                "title": "If you have an existing infrastructure service, Google will manage it for you if you purchase a Managed Services contract.",
+                "correct": false
+            },
+            {
+                "title": "Managed Services may be an alternative to creating and managing infrastructure solutions.",
+                "correct": true
+            },
+            {
+                "title": "Managed Services are more customizable than infrastructure solutions.",
+                "correct": false
+            },
+            {
+                "title": "Managed Services are pay services offered by 3rd party vendors..",
+                "correct": false
+            }
+        ]
+    }
+]

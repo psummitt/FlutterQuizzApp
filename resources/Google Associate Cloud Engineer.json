@@ -1,0 +1,102 @@
+[
+    {
+        "title": "You want to ensure the boot disk of a preemptible instance is persisted for re-use. How should you provision the gcloud compute instance to ensure your requirement is met.",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "Use --no-boot-disk-auto-delete to disable automatic deletion of boot disks when the instances are deleted. --boot-disk-auto-delete flag is enabled by default. It enables automatic deletion of boot disks when the instances are deleted. In order to prevent automatic deletion, we have to specify --no-boot-disk-auto-delete flag.",
+        "options": [
+            {
+                "title": "gcloud compute instances create [INSTANCE_NAME] --preemptible. The flag --boot-disk-auto-delete is disabled by default",
+                "correct": false
+            },
+            {
+                "title": "gcloud compute instances create [INSTANCE_NAME] --no-auto-delete",
+                "correct": false
+            },
+            {
+                "title": "gcloud compute instances create [INSTANCE_NAME] -preemptible --no-boot-disk-auto-delete",
+                "correct": true
+            },
+            {
+                "title": "gcloud compute instances create [INSTANCE_NAME] --preemptible --boot-disk-auto-delete=no",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "You can SSH into an instance from another instance in the same VPC by its internal IP address, but not its external IP address.  What is one possible reason why this is so?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "firewall rules need to be enabled for within the network and external network to be allowed to ssh into the instances.",
+        "options": [
+            {
+                "title": "The receiving instance has an ephemeral address instead of a reserved address.",
+                "correct": false
+            },
+            {
+                "title": "The external IP address is disabled",
+                "correct": false
+            },
+            {
+                "title": "The outgoing instance does not have correct permission granted to its service account.",
+                "correct": false
+            },
+            {
+                "title": "The firewall rule to allow SSH is restricted to the internal VPC.",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "You set up an application to be deployed in a Kubernetes Cluster with GKE. Your app uses various Cloud services, including Cloud Spanner and Cloud Pub/Sub, and you are requested to find an optimized way to run the system.  What is the best way to securely authorize all operations?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "The best method is always through the use of Service Accounts. You can configure the Service Account to be associated each time a VM is created, but the privileges to be assigned can be different among the various applications in the various pods that may share the same VM.",
+        "options": [
+            {
+                "title": "Write the credentials in the source repository or inside the container image",
+                "correct": false
+            },
+            {
+                "title": "Create a service account and use the corresponding key with a K8s secret",
+                "correct": true
+            },
+            {
+                "title": "Write the login credentials of a user enabled to those Services in the Deployment manifest file in YAML format",
+                "correct": false
+            },
+            {
+                "title": "Associate a specific service account with the configuration of the specific node pool (NodeConfig)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Your Company is planning to migrate all Java web applications to Google App Engine. However, you still want to continue using your on-premise database. How can you set up the app engine to communicate with your on-premise database while minimizing effort?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "You need Cloud VPN to connect VPC to an on-premise network. Unlike App Engine Standard which is serverless, App Engine Flex instances are already within the VPC, so they can use Cloud VPN to connect to the on-premise network.",
+        "options": [
+            {
+                "title": "Setup the application using App Engine Flexible environment with Cloud Router to connect to an on-premise database.",
+                "correct": false
+            },
+            {
+                "title": "Setup the application using App Engine Flexible environment with Cloud VPN to connect to an on-premise database.",
+                "correct": true
+            },
+            {
+                "title": "Setup the application using App Engine Standard environment with Cloud Router to connect to an on-premise database.",
+                "correct": false
+            },
+            {
+                "title": "Setup the application using App Engine Standard environment with Cloud VPN to connect to an on-premise database.",
+                "correct": false
+            }
+        ]
+    }
+]

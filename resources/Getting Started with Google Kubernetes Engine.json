@@ -1,0 +1,352 @@
+[
+    {
+        "title": "One of the main characteristics of cloud computing is that resources are elastic. What does that mean?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Resources can be allocated automatically.",
+                "correct": false
+            },
+            {
+                "title": "When customers need more resources, they can get more. When they need less, they can scale back.",
+                "correct": true
+            },
+            {
+                "title": "You can quickly get more resources when you need them.",
+                "correct": false
+            },
+            {
+                "title": "You share resources from a large pool that enables economies of scale.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "You are considering deploying a solution by using containers on Google Cloud. What Google Cloud solution provides a managed compute platform with native support for containers?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Cloud Functions",
+                "correct": false
+            },
+            {
+                "title": "Google Kubernetes Engine clusters",
+                "correct": true
+            },
+            {
+                "title": "Compute Engine autoscaling groups",
+                "correct": false
+            },
+            {
+                "title": "Container Registry",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "What Identity and Access Management (IAM) hierarchy structure is best for building an application in Google Cloud?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Create a new organization node for the project, then create all projects and resources inside the new organization node.",
+                "correct": false
+            },
+            {
+                "title": "Create new projects and resources inside departmental folders for the resources needed, organized by the component applications.",
+                "correct": false
+            },
+            {
+                "title": "Create a new folder inside your organization node, then create projects inside that folder for the resources.",
+                "correct": true
+            },
+            {
+                "title": "Create new projects for each of the component applications, then create folders inside those for the resources.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "You are developing a new product for a customer and need to be mindful of cost and resources. What Google Cloud tools can be used to ensure costs stay manageable before consumption gets too high?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Configure the billing account at the product folder level in the resource hierarchy.",
+                "correct": false
+            },
+            {
+                "title": "Set up budgets and alerts at the project level.",
+                "correct": true
+            },
+            {
+                "title": "Configure the billing account for each project associated with the product.",
+                "correct": false
+            },
+            {
+                "title": "Configure quotas and limits for each product folder.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "What is significant about the topmost layer in a container? Choose two options.",
+        "imagePath": "",
+        "optionType": "multiChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Reading from or writing to the topmost layer requires special software libraries.",
+                "correct": false
+            },
+            {
+                "title": "The topmost layer's contents are ephemeral. When the container is deleted, the contents are lost.",
+                "correct": true
+            },
+            {
+                "title": "An application running in a container can only modify the topmost layer.",
+                "correct": true
+            },
+            {
+                "title": "Reading from or writing to the topmost layer requires special privileges.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "When using Kubernetes, you must describe the desired state you want, and Kubernetes's job is to make the deployed system conform to that desired state and keep it there despite failures. What is the name of this management approach?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Virtualization",
+                "correct": false
+            },
+            {
+                "title": "Imperative configuration",
+                "correct": false
+            },
+            {
+                "title": "Declarative configuration",
+                "correct": true
+            },
+            {
+                "title": "Containerization",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "What is the name for the computers in a Google Kubernetes Engine cluster that run workloads?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Container images",
+                "correct": false
+            },
+            {
+                "title": "Control planes",
+                "correct": false
+            },
+            {
+                "title": "Nodes",
+                "correct": true
+            },
+            {
+                "title": "Containers",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Google Kubernetes Engine offers two modes of operation: Autopilot and Standard mode. Which one of the options below is a use case for using Standard mode.",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "You require SSH access to nodes.",
+                "correct": true
+            },
+            {
+                "title": "You want machine types based on workloads.",
+                "correct": false
+            },
+            {
+                "title": "You want to avoid cluster configuration.",
+                "correct": false
+            },
+            {
+                "title": "You want to only pay for Pods and not nodes.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "You want to deploy multiple copies of an application in an effort to load balance traffic. How should you deploy Pods to production to achieve this?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Create a Service manifest for the LoadBalancer that specifies the number of replicas you want to run.",
+                "correct": false
+            },
+            {
+                "title": "Create separate named Pod manifests for each instance of the application, and deploy as many as you need.",
+                "correct": false
+            },
+            {
+                "title": "Deploy the Pod manifest multiple times until you achieve the number of replicas required.",
+                "correct": false
+            },
+            {
+                "title": "Create a deployment manifest that specifies the number of replicas that you want to run",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "When designing an application, you want the containers to be located as close to each other as possible in order to minimize latency. Which design decision helps meet this requirement?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Place the containers in the same Pod.",
+                "correct": true
+            },
+            {
+                "title": "Place the containers in the same cluster.",
+                "correct": false
+            },
+            {
+                "title": "Give the containers the same labels.",
+                "correct": false
+            },
+            {
+                "title": "Place the containers in the same Namespace.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "You want to use kubectl to configure your cluster, but first you must configure it. Where does the kubectl command store its configuration file?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "The configuration information is stored in the $HOME/.kube/config file.",
+                "correct": true
+            },
+            {
+                "title": "The configuration information is entered in Kubectl before executing commands.",
+                "correct": false
+            },
+            {
+                "title": "The configuration information is stored in environment variables in the current shell. when required.",
+                "correct": false
+            },
+            {
+                "title": "kubectl uses the same authorization and credential tokens as the gcloud CLI utilities.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "What command can be used to identify which containers in a Pod are successfully running, and which are failing or having issues?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "kubectl exec",
+                "correct": false
+            },
+            {
+                "title": "kubectl get pod",
+                "correct": false
+            },
+            {
+                "title": "kubectl logs",
+                "correct": false
+            },
+            {
+                "title": "kubectl describe pod",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "You attempt to update a container image to a new version by using the “kubectl describe pod command,” but are not successful. The output of the command shows that the Pod status has changed to “Pending,”the state is shown as “Waiting,” and the reason shown is “ImagePullBackOff.” What is the most probable cause of this error?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "The container image failed to download.",
+                "correct": true
+            },
+            {
+                "title": "The container image pull policy has been set to 'Never.'",
+                "correct": false
+            },
+            {
+                "title": "The latest container image has already been deployed.",
+                "correct": false
+            },
+            {
+                "title": "You specified an invalid container name.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Which command can be used to display error messages from containers in a Pod that are failing to run successfully?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "kubectl describe pod",
+                "correct": false
+            },
+            {
+                "title": "kubectl exec -it -- sh",
+                "correct": false
+            },
+            {
+                "title": "kubectl logs",
+                "correct": true
+            },
+            {
+                "title": "kubectl get pod",
+                "correct": false
+            }
+        ]
+    }
+]

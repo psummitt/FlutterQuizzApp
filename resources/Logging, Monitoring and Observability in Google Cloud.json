@@ -1,0 +1,127 @@
+[
+    {
+        "title": "The error-reporting tool is showing occasional errors in your service and you don’t know why. Which tool below would help track down your programming error?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Logging",
+                "correct": false
+            },
+            {
+                "title": "Profiler",
+                "correct": false
+            },
+            {
+                "title": "Trace",
+                "correct": false
+            },
+            {
+                "title": "Debugger",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "You want a simple way to see the latency of requests for a web application you deployed to App Engine. What GCP tool should you use?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Logging",
+                "correct": false
+            },
+            {
+                "title": "Profiler",
+                "correct": false
+            },
+            {
+                "title": "Trace",
+                "correct": true
+            },
+            {
+                "title": "Debugger",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "What are the four golden signals?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "IKPIs, SLIs, SLOs, SLAs.",
+                "correct": false
+            },
+            {
+                "title": "Availability, durability, scalability, resiliency.",
+                "correct": false
+            },
+            {
+                "title": "Get, post, put, delete.",
+                "correct": false
+            },
+            {
+                "title": "Latency, traffic, saturation, errors.",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "Which definition below best describes an SLI?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "It is a percentage goal of a measure you intend your service to achieve.",
+                "correct": false
+            },
+            {
+                "title": "It is a time-bound measurable attribute of a service.",
+                "correct": true
+            },
+            {
+                "title": "It is a key performance indicator, for example, clicks per session or customer signups.",
+                "correct": false
+            },
+            {
+                "title": "It represents a contract with your customers regarding service performance.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Which of the following is NOT true when talking about error budgets?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "You should devise an alerting strategy that notifies developers of an event that is consuming an unusually high percentage to the error budget.",
+                "correct": false
+            },
+            {
+                "title": "An error budget is generally expressed as a percentage, and that percentage will hover somewhere near, but not at, 100%.",
+                "correct": true
+            },
+            {
+                "title": "Developers can work on new features as long as they are within their error budget",
+                "correct": false
+            },
+            {
+                "title": "The error budget is calculated as 100% minus the SLO for a given SLI.",
+                "correct": false
+            }
+        ]
+    }
+]
