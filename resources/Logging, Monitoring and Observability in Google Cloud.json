@@ -1,0 +1,77 @@
+[
+    {
+        "title": "The error-reporting tool is showing occasional errors in your service and you don’t know why. Which tool below would help track down your programming error?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Logging",
+                "correct": false
+            },
+            {
+                "title": "Profiler",
+                "correct": false
+            },
+            {
+                "title": "Trace",
+                "correct": false
+            },
+            {
+                "title": "Debugger",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "You want a simple way to see the latency of requests for a web application you deployed to App Engine. What GCP tool should you use?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Logging",
+                "correct": false
+            },
+            {
+                "title": "Profiler",
+                "correct": false
+            },
+            {
+                "title": "Trace",
+                "correct": true
+            },
+            {
+                "title": "Debugger",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "You want to do analytics on the most frequently used features of your application. Which tool might be best for doing this?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Logging",
+                "correct": true
+            },
+            {
+                "title": "Profiler",
+                "correct": false
+            },
+            {
+                "title": "Trace",
+                "correct": false
+            },
+            {
+                "title": "Debugger",
+                "correct": false
+            }
+        ]
+    }
+]
