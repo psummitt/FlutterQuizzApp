@@ -473,5 +473,80 @@
                 "correct": false
             }
         ]
+    },
+    {
+        "title": "Which of the following documents summarize the events during the incident and evaluate the effectiveness of the incident response?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Alerts",
+                "correct": false
+            },
+            {
+                "title": "Communication Channels",
+                "correct": false
+            },
+            {
+                "title": "Postmortems",
+                "correct": true
+            },
+            {
+                "title": "Support tickets",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Which of the following is the most important task after an incident has been declared?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Assign blame",
+                "correct": false
+            },
+            {
+                "title": "Root cause analysis",
+                "correct": false
+            },
+            {
+                "title": "Postmortems",
+                "correct": false
+            },
+            {
+                "title": "Mitigation",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "Which of the following are incident response team roles?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "On-call Responder, Helpdesk, DevOps",
+                "correct": false
+            },
+            {
+                "title": "Executive, Operations, Lead",
+                "correct": false
+            },
+            {
+                "title": "Helpdesk, DevOps, Engineering",
+                "correct": false
+            },
+            {
+                "title": "Incident Commander, Operations Lead, Communications Lead",
+                "correct": true
+            }
+        ]
     }
 ]
