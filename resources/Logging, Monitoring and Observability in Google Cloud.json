@@ -50,26 +50,376 @@
         ]
     },
     {
-        "title": "You want to do analytics on the most frequently used features of your application. Which tool might be best for doing this?",
+        "title": "What are the four golden signals?",
         "imagePath": "",
         "optionType": "singleChoice",
         "notes": "some notes on this question",
         "supportiveInfo": " ",
         "options": [
             {
-                "title": "Logging",
+                "title": "IKPIs, SLIs, SLOs, SLAs.",
+                "correct": false
+            },
+            {
+                "title": "Availability, durability, scalability, resiliency.",
+                "correct": false
+            },
+            {
+                "title": "Get, post, put, delete.",
+                "correct": false
+            },
+            {
+                "title": "Latency, traffic, saturation, errors.",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "Which definition below best describes an SLI?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "It is a percentage goal of a measure you intend your service to achieve.",
+                "correct": false
+            },
+            {
+                "title": "It is a time-bound measurable attribute of a service.",
                 "correct": true
             },
             {
-                "title": "Profiler",
+                "title": "It is a key performance indicator, for example, clicks per session or customer signups.",
                 "correct": false
             },
             {
-                "title": "Trace",
+                "title": "It represents a contract with your customers regarding service performance.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Which of the following is NOT true when talking about error budgets?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "You should devise an alerting strategy that notifies developers of an event that is consuming an unusually high percentage to the error budget.",
                 "correct": false
             },
             {
-                "title": "Debugger",
+                "title": "An error budget is generally expressed as a percentage, and that percentage will hover somewhere near, but not at, 100%.",
+                "correct": true
+            },
+            {
+                "title": "Developers can work on new features as long as they are within their error budget",
+                "correct": false
+            },
+            {
+                "title": "The error budget is calculated as 100% minus the SLO for a given SLI.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "In evaluating your alerting policies, which below best describes precision.",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "The proportion of significant events detected",
+                "correct": false
+            },
+            {
+                "title": "The proportion of events detected that were significant",
+                "correct": true
+            },
+            {
+                "title": "How long alerts fire after an issue is resolved",
+                "correct": false
+            },
+            {
+                "title": "How long it takes to send notifications in various conditions",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "In Google Cloud alerting, which of the options below is NOT a valid notification channel?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Webhooks",
+                "correct": false
+            },
+            {
+                "title": "Slack",
+                "correct": false
+            },
+            {
+                "title": "SMS and Email",
+                "correct": false
+            },
+            {
+                "title": "Twitter",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "In evaluating your alerting policies, which below best describes recall.",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "How long alerts fire after an issue is resolved",
+                "correct": false
+            },
+            {
+                "title": "The proportion of alerts detected that were relevant to the sum of relevant alerts and missed alerts",
+                "correct": true
+            },
+            {
+                "title": "How long it takes to send notifications in various conditions",
+                "correct": false
+            },
+            {
+                "title": "The proportion of alerts detected that were relevant to the sum of relevant and irrelevant alerts",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Which option below is NOT a feature of Google Cloud monitoring dashboards?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Does not require the Monitoring Viewer role.",
+                "correct": true
+            },
+            {
+                "title": "Can monitor resources in AWS and on-prem as well as GCP.",
+                "correct": false
+            },
+            {
+                "title": "Can create workspaces to monitor resources in different projects.",
+                "correct": false
+            },
+            {
+                "title": "Automated predefined dashboards based on project resources.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "You’re setting up a load balancer for an application you deployed to Compute Engine. To ensure the load balancer only sends requests to machines that are working; you would use what GCP tool?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Uptime Check",
+                "correct": false
+            },
+            {
+                "title": "Readiness Probe",
+                "correct": false
+            },
+            {
+                "title": "Liveness Probe",
+                "correct": false
+            },
+            {
+                "title": "Health Check",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "You want to be notified if your application is down. Which GCP tool makes this easy?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Uptime Check",
+                "correct": true
+            },
+            {
+                "title": "Readiness Probe",
+                "correct": false
+            },
+            {
+                "title": "Liveness Probe",
+                "correct": false
+            },
+            {
+                "title": "Health Check",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Management wants to see analysis of resources by the development team, department, cost center, and application status. What could you do to make this easier?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Add appropriate labels to your Google Cloud resource.",
+                "correct": true
+            },
+            {
+                "title": "Use standardized prefixes on the names of all resources.",
+                "correct": false
+            },
+            {
+                "title": "Use customized logging messages that include appropriate resource metadata.",
+                "correct": false
+            },
+            {
+                "title": "Add appropriate tags to your Google Cloud resources.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "You’ve deployed an application to Compute Engine. The application writes to the logs, but you can’t find any of the logged messages in Cloud Logging. What might be the problem?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "You need to deny access to all Google Cloud services under scopes.",
+                "correct": false
+            },
+            {
+                "title": "You need to add the Logging Viewer role to the service account.",
+                "correct": false
+            },
+            {
+                "title": "You need to turn on the VM machine logs.",
+                "correct": false
+            },
+            {
+                "title": "You need to install the logging agent.",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "Which statement below is false?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Each project can be in only one workspace.",
+                "correct": true
+            },
+            {
+                "title": "Workspaces can include AWS resources.",
+                "correct": false
+            },
+            {
+                "title": "Workspaces can include resources from multiple projects.",
+                "correct": false
+            },
+            {
+                "title": "You can allow other users to view your workspace using IAM.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "You want to use the logs to monitor application usage in real time. Where would the best export sink be?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Cloud Storage",
+                "correct": false
+            },
+            {
+                "title": "BigQuery",
+                "correct": false
+            },
+            {
+                "title": "Pub/Sub",
+                "correct": true
+            },
+            {
+                "title": "Spanner",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Your manager wants a daily report of resource utilization by application. Where would the best export sink be?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Cloud Storage",
+                "correct": false
+            },
+            {
+                "title": "BigQuery",
+                "correct": true
+            },
+            {
+                "title": "Pub/Sub",
+                "correct": false
+            },
+            {
+                "title": "Spanner",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "Your governance team has mandated you save your log data for 5 years for compliance reasons. Where would the best place to export it be?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Cloud Storage in a single-region bucket using the archival storage class",
+                "correct": true
+            },
+            {
+                "title": "You don’t need to export it, just set the retention policy in Logging to 5 years",
+                "correct": false
+            },
+            {
+                "title": "Cloud Storage in a multi-region bucket",
+                "correct": false
+            },
+            {
+                "title": "BigQuery",
                 "correct": false
             }
         ]
