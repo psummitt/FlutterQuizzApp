@@ -423,5 +423,55 @@
                 "correct": false
             }
         ]
+    },
+    {
+        "title": "Which of the statements below are FALSE when explaining why Data Access logs are turned off by default?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "They often have VPC access issues.",
+                "correct": true
+            },
+            {
+                "title": "Can be expensive to store.",
+                "correct": false
+            },
+            {
+                "title": "Can be very large.",
+                "correct": false
+            },
+            {
+                "title": "May contain sensitive information.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "If you want to provide an external auditor access to your logs, what IAM role would be best?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": " ",
+        "options": [
+            {
+                "title": "Logging Viewer",
+                "correct": true
+            },
+            {
+                "title": "Project Viewer",
+                "correct": false
+            },
+            {
+                "title": "Project Editor",
+                "correct": false
+            },
+            {
+                "title": "Logging Admin",
+                "correct": false
+            }
+        ]
     }
 ]
