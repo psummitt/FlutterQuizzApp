@@ -98,5 +98,80 @@
                 "correct": false
             }
         ]
+    },
+    {
+        "title": "Your compliance team requested all audit logs are stored for 10 years and to allow access for external auditors to view. You want to follow Google recommended practices. What should you do? (Choose two)",
+        "imagePath": "",
+        "optionType": "multiChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "In Google Cloud Storage, you can generate a signed URL to provide limited permission and time to make a request. Anyone who possesses it can use the signed URL to perform specified actions, such as reading an object, within a specified period of time. In our scenario, we do not need to create accounts for our auditors to provide access to logs in Cloud Storage. Instead, we can generate them signed URLs which are timebound and lets them access/download log files",
+        "options": [
+            {
+                "title": "Create an account for the auditors to have view access to Stackdriver Logging",
+                "correct": false
+            },
+            {
+                "title": "Export audit logs to Splunk via Pub/Sub export sink",
+                "correct": false
+            },
+            {
+                "title": "Export audit logs to Cloud Storage via an export sink",
+                "correct": true
+            },
+            {
+                "title": "Generate a signed URL to the Stackdriver export destination for auditors to access.",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "title": "Your company is migrating an application from its on-premises data centre to Google Cloud. One of the applications uses a custom Linux distribution that is not available on Google Cloud. Your solution architect has suggested using VMWare tools to exporting the image and store it in a Cloud Storage bucket. The VM Image is a single compressed 64 GB tar file. You started copying this file using gsutil over a dedicated 1Gbps network, but the transfer is taking a very long time to complete. Your solution architect has suggested using all of the 1Gbps Network to transfer the file quickly. What should you do?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "With cloud storage, Object composition can be used for uploading an object in parallel: you can divide your data into multiple chunks, upload each chunk to a distinct object in parallel, compose your final object, and delete any temporary source objects. This option helps maximize your bandwidth usage and ensures the file is uploaded as fast as possible.",
+        "options": [
+            {
+                "title": "Increase the transfer speed by decreacing the TCP window size.",
+                "correct": false
+            },
+            {
+                "title": "Restart the transfer from the GCP console.",
+                "correct": false
+            },
+            {
+                "title": "Use parallel composite uploads to speed up the transfer.",
+                "correct": true
+            },
+            {
+                "title": "Upload the file Multi-Regional instead and move the file to Nearline Storage Class.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "title": "You've created a Kubernetes engine cluster named 'my-gcp-ace-proj-1', which has a cluster pool named my-gcp-aceprimary-node-pool. You want to increase the number of nodes within your cluster pool from 10 to 20 to meet capacity demands. What is the command to change the number of nodes in your pool?",
+        "imagePath": "",
+        "optionType": "singleChoice",
+        "notes": "some notes on this question",
+        "supportiveInfo": "With cloud storage, Object composition can be used for uploading an object in parallel: you can divide your data into multiple chunks, upload each chunk to a distinct object in parallel, compose your final object, and delete any temporary source objects. This option helps maximize your bandwidth usage and ensures the file is uploaded as fast as possible.",
+        "options": [
+            {
+                "title": "gcloud container clusters resize my-gcp-ace-proj-1 --node-pool my-gcp-ace-primary-node-pool --num-nodes 20",
+                "correct": true
+            },
+            {
+                "title": "kubectl container clusters update my-gcp-ace-proj-1 --node-pool my-gcp-ace-primary-node-pool --num-nodes 20",
+                "correct": false
+            },
+            {
+                "title": "gcloud container clusters resize my-gcp-ace-proj-1 --node-pool my-gcp-ace-primary-node-pool --new-size 20",
+                "correct": false
+            },
+            {
+                "title": "gcloud container clusters update my-gcp-ace-proj-1 --node-pool my-gcp-ace-primary-node-pool --num-nodes 20",
+                "correct": false
+            }
+        ]
     }
 ]
